@@ -143,11 +143,9 @@ At the heart of Bokeh is the `ColumnDataSource`
 
 ---
 
-![Grumpy cat](images/grumpy_cat.jpg)
+# `ColumnDataSource`
 
-Spend at least half of my time getting data in the right shape.
----
-
+http://localhost:8888/notebooks/notebooks/ColumnDataSource.ipynb
 ---
 
 and the `Plot`
@@ -164,11 +162,43 @@ p = figure()
 from bokeh.plotting import Chart
 p = Chart()
 ```
-They're all the same thing with the same methods / attributes on them.
+They're basically the same thing with the same key methods/attributes on them.
+
+http://localhost:8888/notebooks/notebooks/Plot.ipynb
+---
+# chart
+
+![Bar chart](images/bar_chart.png)
+
+http://localhost:8888/notebooks/notebooks/Chart.ipynb
+
+---
+# io
+
+output_notebook
+```python
+from bokeh.io import output_notebook, show
+output_notebook()
+
+bar = Bar(bar_df, stacked=True, palette=['purple', 'gray'])
+
+show(bar)
+```
+
+output_file
+```python
+from bokeh.io import output_file, show
+output_file('my_bar_chart.html', mode='cdn')  # CDN mode keeps your output small
+
+bar = Bar(bar_df, stacked=True, palette=['purple', 'gray'])
+
+show(bar)  # Also see save(bar)
+```
+
+
 ---
 
-Let's get started with a chart:
-http://localhost:888
+# Plotting
 
 ---
 
@@ -184,5 +214,6 @@ They're all the same thing though
 
 # Further reading
 
-* User guide - [bokeh.pydata.org/en/latest/docs/user_guide.html](http://bokeh.pydata.org/en/latest/docs/user_guide.html)
+* Exporting & Embedding - [bokeh.pydata.org/docs/reference/resources_embedding.html](http://bokeh.pydata.org/docs/reference/resources_embedding.html)
+* User guide - [bokeh.pydata.org/docs/user_guide.html](http://bokeh.pydata.org/docs/user_guide.html)
 * Tutorial notebooks - [github.com/bokeh/bokeh-notebooks/tutorial](http://github.com/bokeh/bokeh-notebooks/tutorial)

@@ -1,0 +1,1320 @@
+2015-01-03 10:11: start
+2015-01-03 13:57: Python
+
+2015-01-04 16:11: start
+2015-01-04 17:03: Python
+
+2015-01-05 05:06: start
+2015-01-05 05:09: Python
+2015-01-05 05:29: break ***
+2015-01-05 05:38: break ***
+2015-01-05 05:45: break ***
+2015-01-05 08:15: Python
+2015-01-05 08:50: break ***
+2015-01-05 13:19: Python
+
+2015-01-06 03:30: start
+2015-01-06 05:00: Python
+2015-01-06 05:48: break ***
+2015-01-06 09:57: Python
+
+2015-01-07 04:42: start
+2015-01-07 05:02: Python
+2015-01-07 06:03: break ***
+2015-01-07 09:59: Python
+2015-01-07 14:00: Python
+
+2015-01-08 07:51: start
+2015-01-08 09:25: Python
+2015-01-08 10:35: break ***
+2015-01-08 10:45: Python
+2015-01-08 16:34: break ***
+2015-01-08 18:09: Python
+
+2015-01-09 06:00: start
+2015-01-09 10:02: Python
+2015-01-09 10:20: break ***
+2015-01-09 10:25: Python
+
+2015-01-12 06:00: start
+2015-01-12 07:00: Python
+2015-01-12 10:05: Python - pandas
+2015-01-12 10:38: break ***
+2015-01-12 12:15: Python - pandas
+2015-01-12 12:30: break ***
+2015-01-12 12:48: break ***
+2015-01-12 13:17: Python - pandas
+2015-01-12 14:03: Python - pandas
+2015-01-12 15:05: Python - pandas
+2015-01-12 15:11: Python - pandas
+
+2015-01-13 06:10: start
+2015-01-13 07:15: Python
+2015-01-13 15:43: Python - pandas
+2015-01-13 16:41: Python
+
+2015-01-14 06:17: start
+2015-01-14 08:57: Python - pandas
+2015-01-14 09:13: Python
+2015-01-14 09:25: break ***
+2015-01-14 09:30: Python
+2015-01-14 11:23: break ***
+2015-01-14 12:14: Python - pandas
+2015-01-14 12:34: break ***
+2015-01-14 13:10: Python - pandas
+2015-01-14 14:05: Python - pandas
+2015-01-14 14:14: Python - pandas
+2015-01-14 14:36: break ***
+2015-01-14 15:34: Python - pandas
+2015-01-14 15:48: Python - pandas
+2015-01-14 15:56: Python
+
+2015-01-15 06:00: start
+2015-01-15 06:11: Python
+2015-01-15 06:45: Python - pandas
+2015-01-15 07:01: Python
+2015-01-15 08:45: Python - pandas
+2015-01-15 12:42: Python - pandas
+2015-01-15 13:02: break ***
+2015-01-15 15:21: Python - pandas
+2015-01-15 15:44: Python - pandas
+2015-01-15 16:56: break ***
+2015-01-15 19:21: Python - pandas
+2015-01-15 19:38: Python - pandas
+
+2015-01-16 06:00: start
+2015-01-16 06:19: Python
+2015-01-16 06:27: break ***
+2015-01-16 06:59: break ***
+2015-01-16 07:28: Python
+2015-01-16 09:47: Python - pandas
+2015-01-16 10:48: Python
+2015-01-16 11:00: Python
+2015-01-16 11:13: break ***
+2015-01-16 11:17: Python
+2015-01-16 11:45: break ***
+2015-01-16 12:13: break ***
+
+2015-01-19 06:10: start
+2015-01-19 07:11: Python - pandas
+2015-01-19 09:42: Python - pandas
+2015-01-19 10:35: Python - pandas
+2015-01-19 11:59: Python - pandas
+2015-01-19 12:11: Python - pandas
+2015-01-19 12:23: Python - pandas
+2015-01-19 12:49: Python
+
+2015-01-20 06:24: start
+2015-01-20 06:31: Python
+2015-01-20 06:55: break ***
+2015-01-20 09:09: Python - pandas
+2015-01-20 13:03: break ***
+2015-01-20 13:18: Python
+2015-01-20 13:40: break ***
+2015-01-20 14:03: Python - pandas
+2015-01-20 16:07: Python - pandas
+2015-01-20 16:40: Python - pandas
+2015-01-20 16:55: Python - pandas
+2015-01-20 17:41: Python
+2015-01-20 18:11: Python
+2015-01-20 18:20: Python
+2015-01-20 18:43: Python
+2015-01-20 18:59: Python
+
+2015-01-21 06:17: start
+2015-01-21 06:36: Python - pandas
+2015-01-21 06:55: break ***
+2015-01-21 07:28: Python
+2015-01-21 09:38: Python - pandas
+2015-01-21 12:05: Python - pandas
+2015-01-21 13:11: Python - pandas
+2015-01-21 13:30: Python - pandas
+2015-01-21 13:56: Python - pandas
+2015-01-21 15:10: Python - pandas
+2015-01-21 15:19: Python - pandas
+
+2015-01-22 06:12: start
+2015-01-22 06:19: Python - pandas
+2015-01-22 06:26: break ***
+2015-01-22 06:38: Python - pandas
+2015-01-22 06:50: Python
+2015-01-22 07:03: Python - pandas
+2015-01-22 07:50: Python - pandas
+2015-01-22 08:00: break ***
+2015-01-22 08:32: Python - pandas
+2015-01-22 08:37: Python
+2015-01-22 09:50: Python - pandas
+2015-01-22 10:19: Python
+2015-01-22 10:31: Python
+2015-01-22 10:50: break ***
+2015-01-22 10:59: Python - pandas
+
+2015-01-23 06:22: start
+2015-01-23 06:30: Python - pandas
+2015-01-23 07:08: break ***
+2015-01-23 08:54: Python - pandas
+2015-01-23 08:58: Python
+2015-01-23 09:19: Python - pandas
+2015-01-23 11:23: Python - pandas
+2015-01-23 11:45: Python - pandas
+2015-01-23 13:21: Python
+2015-01-23 16:16: Python
+2015-01-23 16:36: Python
+
+2015-01-26 06:31: start
+2015-01-26 06:52: Python
+2015-01-26 06:58: break ***
+2015-01-26 07:13: Python
+2015-01-26 07:44: Python
+2015-01-26 07:59: break ***
+2015-01-26 10:25: Python - pandas
+2015-01-26 10:33: Python
+2015-01-26 12:23: break ***
+2015-01-26 12:28: Python
+2015-01-26 13:05: break ***
+2015-01-26 13:18: break ***
+2015-01-26 13:50: Python - pandas
+2015-01-26 14:48: Python - pandas
+2015-01-26 14:53: Python - pandas
+2015-01-26 15:01: Python
+
+2015-01-27 06:05: start
+2015-01-27 06:35: Python
+2015-01-27 07:55: Python - pandas
+2015-01-27 08:00: break ***
+2015-01-27 09:01: Python - pandas
+2015-01-27 09:27: break ***
+2015-01-27 10:13: break ***
+2015-01-27 10:27: Python
+2015-01-27 10:37: break ***
+2015-01-27 11:13: Python - pandas
+2015-01-27 11:20: break ***
+2015-01-27 12:01: Python - pandas
+2015-01-27 12:05: Python - pandas
+2015-01-27 12:12: break ***
+2015-01-27 12:38: Python - pandas
+2015-01-27 13:11: Python - pandas
+2015-01-27 13:33: break ***
+2015-01-27 15:15: break ***
+2015-01-27 15:40: Python - pandas
+2015-01-27 15:52: Python - pandas
+2015-01-27 16:10: Python - pandas
+2015-01-27 16:24: break ***
+2015-01-27 16:41: break ***
+2015-01-27 17:49: Python - pandas
+2015-01-27 18:39: Python - pandas
+2015-01-27 19:02: Python - pandas
+2015-01-27 19:44: Python - pandas
+
+2015-01-28 06:00: start
+2015-01-28 11:00: Python
+
+2015-01-29 06:34: start
+2015-01-29 06:50: Python
+2015-01-29 08:25: Python - pandas
+2015-01-29 09:22: Python - pandas
+2015-01-29 09:39: Python - pandas
+2015-01-29 09:55: Python
+2015-01-29 10:11: Python
+2015-01-29 11:25: Python - pandas
+2015-01-29 12:17: Python
+2015-01-29 12:27: Python - pandas
+2015-01-29 13:02: Python - pandas
+2015-01-29 13:25: Python - pandas
+2015-01-29 14:01: Python - pandas
+2015-01-29 14:43: Python - pandas
+
+2015-01-30 08:15: start
+2015-01-30 09:24: Python - pandas
+2015-01-30 09:33: break ***
+2015-01-30 10:47: Python - pandas
+2015-01-30 11:00: break ***
+2015-01-30 11:37: Python - pandas
+2015-01-30 11:46: break ***
+2015-01-30 12:08: Python - pandas
+2015-01-30 12:58: break ***
+2015-01-30 13:26: Python
+2015-01-30 14:20: Python - pandas
+2015-01-30 14:42: Python - pandas
+2015-01-30 14:49: Python - pandas
+2015-01-30 14:53: break ***
+2015-01-30 15:23: Python - pandas
+
+2015-01-31 11:00: start
+2015-01-31 12:00: Python - pandas
+2015-01-31 17:00: break ***
+2015-01-31 18:01: Python - pandas
+2015-01-31 19:03: Python - pandas
+2015-01-31 19:45: Python - pandas
+
+2015-02-01 07:53: start
+2015-02-01 08:29: Python - pandas
+2015-02-01 08:39: Python - pandas
+2015-02-01 09:05: Python - pandas
+2015-02-01 09:29: Python
+2015-02-01 10:12: break ***
+2015-02-01 12:43: break ***
+2015-02-01 13:29: Python - pandas
+2015-02-01 16:50: break ***
+2015-02-01 17:21: Python - pandas
+2015-02-01 18:04: break ***
+2015-02-01 18:08: Python - pandas
+2015-02-01 21:36: break ***
+2015-02-01 21:44: Python - pandas
+2015-02-01 21:48: Python
+
+2015-02-02 12:03: start
+2015-02-02 12:17: Python - pandas
+2015-02-02 12:21: Python
+
+2015-02-03 08:20: start
+2015-02-03 08:40: Python
+
+2015-02-04 06:10: start
+2015-02-04 06:58: Python - pandas
+2015-02-04 08:46: Python - pandas
+2015-02-04 08:54: Python
+2015-02-04 09:09: break ***
+2015-02-04 12:49: break ***
+2015-02-04 13:03: break ***
+2015-02-04 13:52: break ***
+2015-02-04 17:37: Python - pandas
+
+2015-02-05 06:20: start
+2015-02-05 09:58: Python - pandas
+2015-02-05 15:04: break ***
+2015-02-05 15:43: break ***
+2015-02-05 17:01: Python - pandas
+2015-02-05 17:49: Python - pandas
+2015-02-05 18:17: Python - pandas
+2015-02-05 18:45: Python - pandas
+2015-02-05 19:46: Python - pandas
+2015-02-05 20:07: Python - pandas
+2015-02-05 21:21: Python - pandas
+
+2015-02-06 06:03: start
+2015-02-06 08:29: Python - pandas
+2015-02-06 08:49: Python
+2015-02-06 10:23: Python - pandas
+2015-02-06 12:08: Python - pandas
+2015-02-06 12:19: Python - pandas
+
+2015-02-09 06:02: start
+2015-02-09 10:18: Python
+
+2015-02-10 06:00: start
+2015-02-10 07:41: Python
+2015-02-10 07:52: Python
+2015-02-10 08:30: break ***
+2015-02-10 09:00: Python
+2015-02-10 09:04: break ***
+2015-02-10 09:24: Python
+2015-02-10 09:48: Python
+2015-02-10 10:46: break ***
+2015-02-10 11:22: Python
+
+2015-02-11 06:05: start
+2015-02-11 06:20: Python
+2015-02-11 06:40: break ***
+2015-02-11 07:51: Python - pandas
+2015-02-11 09:54: Python - pandas
+2015-02-11 11:47: Python
+2015-02-11 12:00: Python
+2015-02-11 12:24: Python - pandas
+2015-02-11 12:44: break ***
+2015-02-11 12:51: Python
+2015-02-11 21:15: break ***
+2015-02-11 22:10: Python
+
+2015-02-12 06:30: start
+2015-02-12 10:20: Python
+2015-02-12 10:28: Python
+2015-02-12 10:45: break ***
+2015-02-12 11:06: Python
+2015-02-12 11:08: Python
+2015-02-12 16:20: break ***
+2015-02-12 20:20: break ***
+2015-02-12 21:04: Python - pandas
+2015-02-12 21:18: Python
+2015-02-12 21:24: Python - pandas
+2015-02-12 21:38: break ***
+2015-02-12 23:19: Python - pandas
+2015-02-12 23:59: Python - pandas
+
+2015-02-13 06:20: start
+2015-02-13 07:45: Python
+2015-02-13 09:14: Python - pandas
+2015-02-13 10:51: Python
+2015-02-13 11:24: break ***
+2015-02-13 11:41: break ***
+2015-02-13 11:58: Python - pandas
+2015-02-13 12:27: Python - pandas
+
+2015-02-16 06:15: start
+2015-02-16 06:30: Python
+2015-02-16 12:12: break ***
+2015-02-16 12:17: Python
+2015-02-16 12:47: break ***
+2015-02-16 14:54: Python
+2015-02-16 17:35: break ***
+2015-02-16 19:24: Python
+
+2015-02-17 06:30: start
+2015-02-17 07:52: Python
+2015-02-17 08:23: break ***
+2015-02-17 08:56: break ***
+2015-02-17 09:20: Python
+2015-02-17 09:44: break ***
+2015-02-17 10:38: Python
+2015-02-17 13:33: break ***
+2015-02-17 13:52: Python
+
+2015-02-18 06:15: start
+2015-02-18 07:27: Python
+2015-02-18 08:52: Python
+2015-02-18 08:58: Python
+2015-02-18 09:12: break ***
+2015-02-18 09:35: Python
+2015-02-18 09:42: Python
+2015-02-18 09:51: break ***
+2015-02-18 12:14: break ***
+2015-02-18 13:02: Python
+
+2015-02-19 06:00: start
+2015-02-19 06:30: Python
+2015-02-19 07:52: break ***
+2015-02-19 08:42: Python
+2015-02-19 09:20: break ***
+2015-02-19 09:47: Python
+2015-02-19 10:42: Python
+2015-02-19 11:09: Python
+2015-02-19 12:49: Python
+2015-02-19 12:56: Python
+2015-02-19 13:07: break ***
+2015-02-19 13:13: Python
+2015-02-19 13:40: Python
+
+2015-02-20 07:43: start
+2015-02-20 08:31: Python
+2015-02-20 08:45: break ***
+2015-02-20 08:58: Python - pandas
+
+2015-02-23 06:48: start
+2015-02-23 07:45: Python - un portals
+2015-02-23 10:48: Python
+2015-02-23 11:18: Python
+2015-02-23 11:30: break ***
+2015-02-23 16:20: break ***
+2015-02-23 16:48: Python
+2015-02-23 18:20: Python
+2015-02-23 18:53: Python - un portals
+2015-02-23 19:03: Python - un portals
+2015-02-23 19:12: Python - un portals
+
+2015-02-24 06:05: start
+2015-02-24 06:20: Python - un portals
+2015-02-24 06:35: Python
+2015-02-24 06:55: break ***
+2015-02-24 07:31: Python
+2015-02-24 07:40: Python - un portals
+2015-02-24 08:22: Python
+2015-02-24 09:20: Python
+2015-02-24 10:21: break ***
+2015-02-24 12:20: break ***
+2015-02-24 14:35: Python
+2015-02-24 14:48: Python
+2015-02-24 15:01: Python
+2015-02-24 15:45: break ***
+2015-02-24 15:53: Python - un portals
+2015-02-24 16:15: Python - un portals
+
+2015-02-25 03:00: start
+2015-02-25 04:50: Python
+2015-02-25 05:05: Python - un portals
+2015-02-25 06:05: break ***
+2015-02-25 10:04: Python
+
+2015-02-26 10:00: start
+2015-02-26 10:27: Python
+2015-02-26 11:09: break ***
+2015-02-26 20:59: break ***
+2015-02-26 22:26: Python
+2015-02-26 23:59: Python - un portals
+
+2015-02-27 00:00: start
+2015-02-27 00:55: Python - un portals
+2015-02-27 06:16: break ***
+2015-02-27 07:50: Python - un portals
+2015-02-27 08:28: Python
+2015-02-27 09:29: break ***
+2015-02-27 12:18: break ***
+2015-02-27 13:12: break ***
+2015-02-27 14:08: Python - un portals
+2015-02-27 15:22: Python - un portals
+2015-02-27 15:53: Python - un portals
+2015-02-27 17:41: Python - un portals
+2015-02-27 17:53: Python - un portals
+2015-02-27 19:40: Python - un portals
+2015-02-27 20:32: break ***
+2015-02-27 21:05: Python - un portals
+2015-02-27 21:23: break ***
+2015-02-27 22:12: Python - un portals
+2015-02-27 22:40: Python - un portals
+
+2015-03-03 06:15: start
+2015-03-03 06:30: Python
+2015-03-03 06:40: break ***
+2015-03-03 09:49: Python - un portals
+2015-03-03 11:01: Python - un portals
+2015-03-03 17:57: break ***
+2015-03-03 19:27: break ***
+2015-03-03 21:04: Python - un portals
+2015-03-03 21:40: Python - un portals
+2015-03-03 23:32: Python - un portals
+
+2015-03-04 06:54: start
+2015-03-04 07:29: Python
+2015-03-04 09:46: Python - un portals
+2015-03-04 14:02: break ***
+2015-03-04 14:59: Python - un portals
+2015-03-04 16:30: Python - un portals
+2015-03-04 16:59: Python - un portals
+2015-03-04 17:20: Python - un portals
+
+2015-03-05 06:15: start
+2015-03-05 06:35: Python
+2015-03-05 06:55: break ***
+2015-03-05 08:25: Python - un portals
+2015-03-05 10:04: break ***
+2015-03-05 12:05: break ***
+2015-03-05 12:42: Python - un portals
+2015-03-05 13:26: break ***
+2015-03-05 14:02: Python - un portals
+2015-03-05 16:30: break ***
+2015-03-05 17:45: Python - un portals
+2015-03-05 19:39: Python - un portals
+2015-03-05 23:59: Python - un portals
+
+2015-03-06 00:00: start
+2015-03-06 00:34: Python - un portals
+2015-03-06 01:11: Python - un portals
+2015-03-06 01:32: Python - un portals
+2015-03-06 01:59: Python - un portals
+2015-03-06 02:40: Python - un portals
+2015-03-06 03:45: Python - un portals
+2015-03-06 15:31: break ***
+2015-03-06 17:05: Python - un portals
+2015-03-06 19:45: Python - un portals
+2015-03-06 20:47: break ***
+2015-03-06 22:10: Python - un portals
+2015-03-06 23:05: Python - un portals
+2015-03-06 23:19: Python - un portals
+
+2015-03-09 07:00: start
+2015-03-09 09:15: Python - un portals
+2015-03-09 09:30: break ***
+2015-03-09 09:45: Python
+2015-03-09 10:58: break ***
+2015-03-09 11:05: Python
+2015-03-09 11:45: break ***
+2015-03-09 11:56: Python
+2015-03-09 12:09: break ***
+2015-03-09 12:49: break ***
+2015-03-09 13:10: Python - un portals
+2015-03-09 13:54: Python - un portals
+2015-03-09 16:31: break ***
+2015-03-09 16:49: break ***
+2015-03-09 17:18: Python - un portals
+2015-03-09 18:43: break ***
+2015-03-09 19:55: Python - un portals
+2015-03-09 20:57: break ***
+2015-03-09 21:31: break ***
+2015-03-09 22:56: Python - un portals
+2015-03-09 23:31: Python - un portals
+2015-03-09 23:59: Python - un portals
+
+2015-03-10 00:15: start
+2015-03-10 00:37: Python - un portals
+2015-03-10 01:12: Python - un portals
+2015-03-10 02:15: Python - un portals
+
+2015-03-12 13:10: start
+2015-03-12 13:34: Python
+
+2015-03-30 07:00: start
+2015-03-30 07:15: Python
+2015-03-30 08:05: break ***
+2015-03-30 09:05: Python - contractor status
+2015-03-30 09:52: Python - contractor status
+2015-03-30 10:25: Python - contractor status
+2015-03-30 11:25: break ***
+2015-03-30 11:40: Python
+2015-03-30 11:52: Python - un portals
+2015-03-30 11:54: break ***
+2015-03-30 12:13: Europython
+2015-03-30 13:02: Europython
+2015-03-30 13:23: Python - un portals
+2015-03-30 15:05: break ***
+2015-03-30 15:12: Python - un portals
+2015-03-30 17:22: break ***
+2015-03-30 18:16: Python - un portals
+2015-03-30 19:02: Python - un portals
+2015-03-30 21:25: break ***
+2015-03-30 21:35: Python - un portals
+2015-03-30 22:17: Python - un portals
+2015-03-30 22:24: Python
+
+2015-03-31 08:08: start 
+2015-03-31 08:57: Python
+2015-03-31 10:04: break ***
+2015-03-31 10:22: break ***
+2015-03-31 10:32: break ***
+2015-03-31 11:56: break ***
+2015-03-31 12:20: Python
+2015-03-31 19:08: break ***
+2015-03-31 20:14: break ***
+2015-03-31 20:36: Python - un portals
+2015-03-31 21:14: Python - un portals
+2015-03-31 21:21: Python - un portals
+
+2015-04-01 05:58: start
+2015-04-01 06:23: Python
+2015-04-01 06:36: break ***
+2015-04-01 06:50: Python - un portals
+2015-04-01 07:01: Python - un portals
+2015-04-01 07:45: Python - bees
+2015-04-01 09:07: break ***
+2015-04-01 09:21: Python - un portals
+2015-04-01 09:46: break ***
+2015-04-01 10:36: break ***
+2015-04-01 10:56: Python - un portals
+2015-04-01 11:09: Python - un portals
+2015-04-01 11:17: Python
+2015-04-01 12:20: Python - un portals
+2015-04-01 13:35: Python - un portals
+2015-04-01 13:50: break ***
+2015-04-01 14:15: Python - un portals
+
+2015-04-02 09:20: start
+2015-04-02 09:55: Python
+2015-04-02 10:01: break ***
+2015-04-02 10:27: Python - un portals
+2015-04-02 11:22: Python
+2015-04-02 14:27: break ***
+2015-04-02 17:50: break ***
+2015-04-02 19:15: Python - un portals
+2015-04-02 19:45: Python - un portals
+2015-04-02 20:23: break ***
+2015-04-02 20:59: Python - un portals
+2015-04-02 21:28: Python - un portals
+2015-04-02 21:56: break ***
+2015-04-02 22:40: Python - un portals
+
+2015-04-03 06:00: start
+2015-04-03 12:00: Europython
+
+2015-04-24 07:15: start
+2015-04-24 08:00: Python
+2015-04-24 08:45: break ***
+2015-04-24 09:40: Python - ipython
+2015-04-24 10:00: break ***
+2015-04-24 11:00: Python - mailing list
+2015-04-24 13:33: break ***
+2015-04-24 13:51: Python - mailing list
+2015-04-24 14:11: break ***
+2015-04-24 14:37: Python - ipython
+2015-04-24 11:00: Python - mailing list
+2015-04-24 11:00: Python - mailing list
+
+2015-04-27 12:34: start
+2015-04-27 12:55: Python - ipython
+2015-04-27 13:03: Python - ipython
+2015-04-27 13:44: break ***
+2015-04-27 14:07: break ***
+2015-04-27 14:29: Python - ipython
+2015-04-27 14:48: Python - ipython
+2015-04-27 15:02: Python - ipython
+
+2015-05-01 04:23: start
+2015-05-01 04:45: Python
+2015-05-01 05:00: break ***
+2015-05-01 06:28: Python
+2015-05-01 06:44: Python
+2015-05-01 08:05: Python - ipython
+2015-05-01 08:24: Python - pandas
+2015-05-01 08:56: break ***
+2015-05-01 09:57: break ***
+2015-05-01 10:23: Python - ipython
+2015-05-01 10:39: Python
+2015-05-01 11:00: break ***
+2015-05-01 11:18: Python - ipython
+2015-05-01 17:00: break ***
+2015-05-01 17:15: Python - ipython
+2015-05-01 21:56: break ***
+
+2015-05-02 11:47: start
+2015-05-02 12:14: break ***
+2015-05-02 16:30: break ***
+2015-05-02 16:44: Python - ipython
+
+2015-05-03 11:31: start
+2015-05-03 13:45: Python - ipython
+2015-05-03 14:30: break ***
+2015-05-03 15:55: Python - ipython
+2015-05-03 16:30: Python - ipython
+2015-05-03 17:03: Python - ipython
+2015-05-03 17:26: Python - ipython
+2015-05-03 17:55: break ***
+2015-05-03 18:15: Python
+
+2015-05-04 15:46: start
+2015-05-04 15:59: Python
+
+2015-05-11 13:22: start
+2015-05-11 13:30: Unicorns
+2015-05-11 13:39: break ***
+2015-05-11 13:47: Unicorns
+
+2015-05-13 10:43: start
+
+2015-05-14 17:00: start
+2015-05-14 17:03: Unicorns
+2015-05-14 17:58: Beekeeping
+2015-05-14 18:56: break ***
+2015-05-14 20:27: Beekeeping
+2015-05-14 21:14: Beekeeping
+2015-05-14 21:40: break ***
+2015-05-14 22:10: Beekeeping
+2015-05-14 23:25: Beekeeping
+2015-05-14 23:36: Beekeeping
+
+2015-05-15 12:02: start
+2015-05-15 12:23: Unicorns
+2015-05-15 13:23: break ***
+2015-05-15 20:00: break ***
+2015-05-15 20:51: Beekeeping
+
+2015-05-18 14:47: start
+2015-05-18 14:56: break ***
+2015-05-18 15:02: Beekeeping
+2015-05-18 15:26: Beekeeping
+2015-05-18 15:52: Beekeeping
+2015-05-18 16:24: break ***
+2015-05-18 16:38: Beekeeping
+2015-05-18 17:05: break ***
+2015-05-18 18:27: Beekeeping
+
+2015-05-19 11:18: start
+2015-05-19 12:02: Beekeeping
+2015-05-19 16:41: break ***
+2015-05-19 17:17: Beekeeping - mailing list
+2015-05-19 17:33: break ***
+
+2015-05-20 02:25: start
+2015-05-20 03:40: break ***
+2015-05-20 04:32: Beekeeping
+2015-05-20 05:14: break ***
+2015-05-20 06:27: Unicorns
+2015-05-20 09:13: break ***
+2015-05-20 09:18: Beekeeping
+2015-05-20 22:04: break ***
+2015-05-20 22:24: Unicorns
+
+2015-05-21 16:50: start
+2015-05-21 17:10: Unicorns
+2015-05-21 21:29: break ***
+2015-05-21 23:21: Unicorns
+
+2015-05-22 08:37: start
+2015-05-22 08:44: Unicorns
+2015-05-22 14:56: break ***
+2015-05-22 15:08: Beekeeping
+
+2015-05-25 08:20: start
+2015-05-25 08:30: Unicorns
+2015-05-25 08:34: break ***
+2015-05-25 08:37: break ***
+2015-05-25 08:49: Unicorns
+2015-05-25 09:04: break ***
+2015-05-25 10:09: Unicorns
+2015-05-25 10:19: break ***
+2015-05-25 12:06: Unicorns
+2015-05-25 16:19: break ***
+2015-05-25 17:31: break ***
+2015-05-25 18:15: Unicorns
+
+2015-05-29 21:45: start
+2015-05-29 22:32: Unicorns
+2015-05-29 23:09: Unicorns
+2015-05-29 23:54: break ***
+2015-05-29 23:59: Unicorns
+
+2015-05-30 00:00: start
+2015-05-30 00:05: Unicorns
+2015-05-30 01:33: Beekeeping
+2015-05-30 01:50: Unicorns
+2015-05-30 02:25: Unicorns
+2015-05-30 14:45: break ***
+2015-05-30 15:18: Unicorns
+
+2015-06-02 09:51: start
+2015-06-02 10:35: Beekeeping
+2015-06-02 10:42: Python
+2015-06-02 10:59: Beekeeping
+2015-06-02 11:06: Python
+2015-06-02 11:14: break ***
+2015-06-02 11:27: Python - django
+2015-06-02 14:03: Python - django
+2015-06-02 15:26: break ***
+2015-06-02 16:05: Python
+2015-06-02 17:00: break ***
+2015-06-02 17:30: Python - bees
+2015-06-02 18:14: Python - django
+2015-06-02 18:24: break ***
+2015-06-02 18:34: Python - mailing list
+2015-06-02 18:44: break ***
+2015-06-02 19:03: break ***
+2015-06-02 19:24: Python
+2015-06-02 19:29: break ***
+2015-06-02 19:35: Python
+2015-06-02 19:40: Python
+2015-06-02 22:37: break ***
+2015-06-02 22:47: break ***
+
+2015-06-03 06:15: start
+2015-06-03 06:25: break ***
+2015-06-03 06:45: Python
+2015-06-03 06:50: Beekeeping
+2015-06-03 06:55: Python
+2015-06-03 07:08: break ***
+2015-06-03 08:00: break ***
+2015-06-03 08:38: Python - django
+2015-06-03 09:14: Python - django
+2015-06-03 09:26: break ***
+2015-06-03 10:47: Beekeeping
+2015-06-03 10:51: break ***
+2015-06-03 11:08: Python
+2015-06-03 14:14: Python - django
+2015-06-03 14:24: Python
+2015-06-03 17:06: break ***
+2015-06-03 18:30: Python - django
+2015-06-03 19:12: break ***
+2015-06-03 19:38: Python - django
+2015-06-03 20:12: break ***
+
+2015-06-04 07:36: start
+2015-06-04 07:48: Python - django
+2015-06-04 08:11: Python - django
+2015-06-04 11:00: break ***
+2015-06-04 11:46: Python - django
+2015-06-04 15:00: break ***
+2015-06-04 19:15: Python - django
+2015-06-04 20:18: Beekeeping
+2015-06-04 21:25: break ***
+2015-06-04 21:50: Beekeeping
+2015-06-04 22:05: break ***
+2015-06-04 22:18: Beekeeping
+
+2015-06-05 06:21: start
+2015-06-05 06:35: break ***
+2015-06-05 06:50: Beekeeping
+2015-06-05 07:31: Beekeeping
+2015-06-05 08:05: break ***
+2015-06-05 10:53: Beekeeping
+2015-06-05 10:57: Python
+2015-06-05 11:11: Python
+2015-06-05 11:22: Beekeeping
+2015-06-05 15:51: break ***
+2015-06-05 16:29: Beekeeping
+2015-06-05 16:58: Beekeeping
+2015-06-05 17:20: break ***
+2015-06-05 18:05: Python
+2015-06-05 18:36: Beekeeping
+2015-06-05 18:49: break ***
+2015-06-05 19:45: break ***
+2015-06-05 22:45: break ***
+2015-06-05 23:59: Beekeeping
+
+2015-06-06 00:00: start
+2015-06-06 00:35: Beekeeping
+2015-06-06 06:00: break ***
+2015-06-06 06:43: Beekeeping
+2015-06-06 07:20: Beekeeping
+2015-06-06 07:44: break ***
+2015-06-06 08:37: Beekeeping
+2015-06-06 09:06: Beekeeping
+2015-06-06 10:02: Beekeeping
+
+2015-06-08 06:13: start
+2015-06-08 06:38: Beekeeping
+2015-06-08 06:48: break ***
+2015-06-08 08:28: Beekeeping
+2015-06-08 09:15: break ***
+2015-06-08 10:00: Beekeeping
+2015-06-08 10:18: break ***
+2015-06-08 11:22: Python
+2015-06-08 11:30: Beekeeping
+2015-06-08 11:32: Python
+2015-06-08 13:21: Python - django
+2015-06-08 14:10: break ***
+2015-06-08 14:23: break ***
+2015-06-08 15:03: Python - django
+2015-06-08 17:15: Python - django
+2015-06-08 17:25: Python
+2015-06-08 17:40: break ***
+2015-06-08 18:00: Python - django
+2015-06-08 18:09: break ***
+2015-06-08 18:40: Python - django
+2015-06-08 18:53: Python - django
+2015-06-08 20:40: break ***
+2015-06-08 21:20: Beekeeping
+2015-06-08 22:23: break ***
+2015-06-08 22:58: Beekeeping
+
+2015-06-09 10:25: start
+2015-06-09 11:50: Python
+2015-06-09 12:06: Python
+2015-06-09 13:16: Python
+2015-06-09 14:12: break ***
+2015-06-09 16:30: Python - bees
+2015-06-09 16:45: break ***
+2015-06-09 17:08: Python
+2015-06-09 18:03: Python
+2015-06-09 18:20: Python - django
+2015-06-09 21:04: break ***
+2015-06-09 21:14: Python
+2015-06-09 22:00: break ***
+2015-06-09 23:59: Beekeeping
+
+2015-06-10 00:00: start
+2015-06-10 00:18: Beekeeping
+2015-06-10 10:19: break ***
+2015-06-10 13:19: Python - django
+2015-06-10 13:53: break ***
+2015-06-10 18:50: Python - django
+2015-06-10 22:00: break ***
+2015-06-10 22:33: Beekeeping
+2015-06-10 23:50: Beekeeping
+
+2015-06-11 00:00: start
+2015-06-11 00:16: Beekeeping - mailing list
+2015-06-11 01:05: Beekeeping
+2015-06-11 01:44: Beekeeping - mailing list
+2015-06-11 10:23: break ***
+2015-06-11 10:50: Python
+2015-06-11 11:23: Python - django
+2015-06-11 12:02: Python
+2015-06-11 13:05: Python - django
+2015-06-11 14:00: break ***
+2015-06-11 16:20: Python - django
+2015-06-11 17:49: Beekeeping
+2015-06-11 19:20: Python - django
+2015-06-11 20:30: break ***
+2015-06-11 20:40: Python - django
+2015-06-11 20:49: Beekeeping
+2015-06-11 21:25: break ***
+2015-06-11 21:27: break ***
+2015-06-11 23:40: Python - django
+2015-06-11 23:57: Python - django
+
+2015-06-12 13:00: start
+2015-06-12 13:09: Beekeeping
+2015-06-12 14:01: break ***
+2015-06-12 14:09: Python
+2015-06-12 14:19: Python
+2015-06-12 14:50: Python - django
+2015-06-12 15:02: break ***
+2015-06-12 16:50: Beekeeping
+2015-06-12 17:05: break ***
+2015-06-12 17:43: Beekeeping
+2015-06-12 23:15: break ***
+2015-06-12 23:40: Beekeeping
+
+2015-06-13 09:30: start
+2015-06-13 10:11: Beekeeping
+2015-06-13 11:22: break ***
+2015-06-13 12:23: Beekeeping
+
+2015-06-14 12:25: start
+2015-06-14 12:38: break ***
+2015-06-14 18:30: break ***
+2015-06-14 18:45: Beekeeping
+
+2015-06-15 06:11: start
+2015-06-15 07:25: Beekeeping
+2015-06-15 10:03: break ***
+
+2015-06-16 18:27: start
+2015-06-16 18:50: Beekeeping
+
+2015-06-17 00:15: start
+2015-06-17 00:33: Beekeeping
+2015-06-17 01:13: Beekeeping
+2015-06-17 03:40: Beekeeping
+
+2015-06-18 10:30: start
+2015-06-18 11:12: Python - mailing list
+2015-06-18 11:22: Beekeeping
+2015-06-18 11:53: Python
+2015-06-18 12:30: Python
+2015-06-18 13:20: Python - django
+2015-06-18 13:30: Python
+2015-06-18 14:14: break ***
+2015-06-18 14:46: Python
+2015-06-18 15:30: Python - django
+2015-06-18 16:09: Python - mailing list
+2015-06-18 17:47: Python - django
+2015-06-18 18:05: Beekeeping
+2015-06-18 18:15: Python
+2015-06-18 19:09: break ***
+2015-06-18 19:40: Beekeeping - mailing list
+2015-06-18 21:23: break ***
+2015-06-18 21:36: Beekeeping - mailing list
+2015-06-18 21:46: Beekeeping
+2015-06-18 22:15: break ***
+2015-06-18 23:06: break ***
+2015-06-18 23:59: Beekeeping
+
+2015-06-19 00:00: start
+2015-06-19 00:32: Beekeeping
+2015-06-19 07:17: break ***
+2015-06-19 07:42: Beekeeping
+2015-06-19 07:58: Python - django
+2015-06-19 10:30: break ***
+2015-06-19 12:30: Beekeeping
+
+2015-06-22 11:33: start
+2015-06-22 11:56: Python
+2015-06-22 12:19: break ***
+2015-06-22 13:25: break ***
+2015-06-22 13:45: Python - mailing list
+2015-06-22 14:12: Python - django
+2015-06-22 15:29: break ***
+2015-06-22 17:19: Python
+2015-06-22 18:30: Python - django
+2015-06-22 18:38: Python
+2015-06-22 19:53: Python - django
+2015-06-22 20:01: break ***
+2015-06-22 21:46: break ***
+2015-06-22 22:07: Python - django
+2015-06-22 22:51: Python - django
+
+2015-06-23 00:46: start
+2015-06-23 10:21: break ***
+2015-06-23 10:45: Python
+2015-06-23 12:10: Python - django
+2015-06-23 13:05: Python
+2015-06-23 13:22: Python - django
+2015-06-23 14:35: Python - django
+2015-06-23 14:59: break ***
+2015-06-23 17:04: Python - django
+2015-06-23 17:41: break ***
+2015-06-23 18:51: Python - django
+2015-06-23 23:00: break ***
+2015-06-23 23:16: Python
+2015-06-23 23:59: Python - django
+
+2015-06-24 00:00: start
+2015-06-24 01:04: Python - django
+2015-06-24 02:17: Python - django
+2015-06-24 02:29: Python - django
+2015-06-24 02:46: Python - django
+2015-06-24 04:06: Python - django
+2015-06-24 04:22: Python
+2015-06-24 12:00: break ***
+2015-06-24 19:00: Python
+2015-06-24 22:30: break ***
+2015-06-24 23:20: Beekeeping
+
+2015-06-25 01:06: start
+2015-06-25 01:18: Beekeeping
+2015-06-25 02:30: break ***
+2015-06-25 04:08: Beekeeping
+2015-06-25 04:24: Beekeeping
+2015-06-25 11:00: break ***
+2015-06-25 11:37: Python
+2015-06-25 19:37: Python - django
+2015-06-25 19:57: break ***
+2015-06-25 21:24: break ***
+2015-06-25 22:15: Beekeeping
+
+2015-06-26 00:03: start
+2015-06-26 00:54: Beekeeping
+2015-06-26 15:03: break ***
+2015-06-26 15:24: Beekeeping
+2015-06-26 15:28: break ***
+2015-06-26 16:50: Beekeeping
+2015-06-26 17:14: break ***
+2015-06-26 17:28: break ***
+2015-06-26 18:33: break ***
+2015-06-26 20:22: Beekeeping
+2015-06-26 23:09: break ***
+2015-06-26 23:20: Beekeeping
+
+2015-06-27 11:15: start
+2015-06-27 13:16: Beekeeping
+2015-06-27 13:45: break ***
+2015-06-27 21:21: Beekeeping
+2015-06-27 22:04: break ***
+
+2015-06-28 06:42: start
+2015-06-28 10:25: break ***
+2015-06-28 12:10: Beekeeping
+2015-06-28 14:18: break ***
+2015-06-28 16:28: Beekeeping
+2015-06-28 17:30: break ***
+2015-06-28 17:48: Beekeeping
+2015-06-28 18:57: Beekeeping
+2015-06-28 19:17: Beekeeping
+2015-06-28 19:24: Beekeeping
+2015-06-28 19:29: break ***
+2015-06-28 20:32: Beekeeping
+2015-06-28 21:32: Unicorns
+
+2015-06-29 11:22: start
+2015-06-29 12:12: Python
+2015-06-29 12:36: break ***
+2015-06-29 13:07: Python - django
+2015-06-29 13:34: break ***
+2015-06-29 14:45: Python - django
+2015-06-29 15:04: break ***
+2015-06-29 15:16: Python
+2015-06-29 16:07: Python - django
+2015-06-29 16:55: Python
+2015-06-29 17:05: Beekeeping
+2015-06-29 17:15: break ***
+2015-06-29 17:45: Python
+2015-06-29 18:00: Beekeeping
+2015-06-29 18:36: break ***
+2015-06-29 19:10: Python
+2015-06-29 20:55: break ***
+2015-06-29 21:45: Beekeeping
+2015-06-29 22:05: break ***
+2015-06-29 23:59: Beekeeping
+
+2015-06-30 00:00: start
+2015-06-30 01:46: Beekeeping
+2015-06-30 02:05: Beekeeping
+2015-06-30 09:30: break ***
+2015-06-30 10:49: Beekeeping
+2015-06-30 10:56: Python
+2015-06-30 11:07: break ***
+2015-06-30 11:38: Python - django
+2015-06-30 11:48: Beekeeping
+2015-06-30 14:39: Python - django
+2015-06-30 14:46: Python - django
+2015-06-30 15:56: break ***
+2015-06-30 16:24: Beekeeping
+2015-06-30 17:00: Python - django
+2015-06-30 18:04: Python - django
+2015-06-30 18:07: break ***
+2015-06-30 18:30: Python - django
+2015-06-30 18:47: Beekeeping
+2015-06-30 18:50: break ***
+2015-06-30 18:55: Python - django
+2015-06-30 19:14: break ***
+2015-06-30 19:56: Python - django
+2015-06-30 20:30: Beekeeping
+2015-06-30 20:42: break ***
+2015-06-30 22:09: Beekeeping
+2015-06-30 22:25: Beekeeping
+2015-06-30 22:38: break ***
+2015-06-30 23:09: Python - django
+2015-06-30 23:59: Beekeeping
+
+2015-07-01 00:00: start
+2015-07-01 00:10: Beekeeping
+2015-07-01 00:43: break ***
+2015-07-01 00:54: Beekeeping
+2015-07-01 08:33: break ***
+2015-07-01 10:37: break ***
+2015-07-01 11:15: Python
+2015-07-01 12:21: Python - django
+2015-07-01 13:33: Python - django
+2015-07-01 13:55: Python - django
+2015-07-01 14:00: break ***
+2015-07-01 14:23: Python - django
+2015-07-01 15:14: break ***
+2015-07-01 15:22: Python
+2015-07-01 16:13: Python - django
+2015-07-01 16:28: break ***
+2015-07-01 17:11: Python - django
+2015-07-01 17:27: Python - django
+2015-07-01 18:32: Python - django
+2015-07-01 18:38: Python
+
+2015-07-02 10:16: start
+2015-07-02 10:33: Python
+2015-07-02 10:44: Python
+2015-07-02 11:08: break ***
+2015-07-02 11:37: Python - django
+2015-07-02 11:54: Python
+2015-07-02 14:32: Python - django
+2015-07-02 14:41: break ***
+2015-07-02 14:50: Python - django
+2015-07-02 14:54: break ***
+2015-07-02 15:08: Python - django
+2015-07-02 15:18: break ***
+2015-07-02 16:40: Python - django
+2015-07-02 17:28: break ***
+2015-07-02 17:32: break ***
+2015-07-02 18:24: Python
+2015-07-02 18:46: Python - django
+2015-07-02 18:54: Python
+2015-07-02 18:58: break ***
+2015-07-02 21:11: Python - django
+2015-07-02 22:32: Python - django
+2015-07-02 22:42: break ***
+2015-07-02 23:59: Python - django
+
+2015-07-03 00:00: start
+2015-07-03 00:54: Python - django
+2015-07-03 02:54: Beekeeping
+2015-07-03 03:05: Beekeeping
+2015-07-03 04:17: Beekeeping
+2015-07-03 04:27: Beekeeping
+2015-07-03 04:37: Beekeeping
+2015-07-03 13:00: break ***
+2015-07-03 13:15: Beekeeping
+2015-07-03 14:01: break ***
+2015-07-03 14:12: Beekeeping
+2015-07-03 14:19: break ***
+2015-07-03 14:27: Beekeeping
+2015-07-03 14:30: break ***
+2015-07-03 15:12: Beekeeping
+2015-07-03 15:22: break ***
+2015-07-03 15:40: Beekeeping
+2015-07-03 16:03: Beekeeping
+2015-07-03 16:14: Python
+2015-07-03 17:06: Python - django
+2015-07-03 18:05: Beekeeping
+2015-07-03 18:23: break ***
+2015-07-03 18:29: Python
+2015-07-03 18:43: break ***
+2015-07-03 19:29: Beekeeping
+2015-07-03 19:44: break ***
+2015-07-03 22:18: Beekeeping
+
+2015-07-06 11:00: start
+2015-07-06 11:14: Python
+2015-07-06 11:34: break ***
+2015-07-06 13:35: Python - django
+2015-07-06 13:53: break ***
+2015-07-06 20:20: Python - django
+
+2015-07-07 11:03: start
+2015-07-07 11:38: Python
+2015-07-07 12:18: Python
+2015-07-07 13:45: Python - django
+2015-07-07 13:59: break ***
+2015-07-07 14:40: Python
+2015-07-07 14:52: Beekeeping - mailing list
+2015-07-07 16:42: break ***
+2015-07-07 16:50: Python
+2015-07-07 17:15: Python
+2015-07-07 18:35: break ***
+2015-07-07 18:42: Python
+2015-07-07 18:57: Beekeeping
+2015-07-07 19:11: break ***
+2015-07-07 20:03: Beekeeping
+2015-07-07 20:41: break ***
+2015-07-07 20:44: Beekeeping
+2015-07-07 21:29: break ***
+2015-07-07 21:49: Beekeeping
+2015-07-07 23:13: break ***
+2015-07-07 23:49: Beekeeping
+
+2015-07-08 00:00: start
+2015-07-08 00:33: Beekeeping
+2015-07-08 01:08: Beekeeping
+2015-07-08 03:09: break ***
+2015-07-08 06:10: Beekeeping
+2015-07-08 12:08: break ***
+2015-07-08 12:49: Beekeeping
+2015-07-08 13:14: Python
+2015-07-08 13:23: break ***
+2015-07-08 13:30: break ***
+2015-07-08 13:38: Beekeeping
+2015-07-08 15:24: break ***
+2015-07-08 16:20: Python
+2015-07-08 16:30: break ***
+2015-07-08 18:42: Python - django
+
+2015-07-09 12:20: start
+2015-07-09 12:36: Beekeeping - mailing list
+2015-07-09 13:51: break ***
+2015-07-09 15:00: Python - django
+2015-07-09 16:05: Python - mailing list
+2015-07-09 16:56: Python - mailing list
+2015-07-09 17:04: Python
+2015-07-09 17:56: break ***
+2015-07-09 19:21: Python - django
+
+2015-07-10 09:46: start
+2015-07-10 10:09: break ***
+2015-07-10 10:52: break ***
+2015-07-10 11:05: Beekeeping - mailing list
+2015-07-10 12:52: break ***
+2015-07-10 15:18: Beekeeping
+2015-07-10 15:28: break ***
+2015-07-10 15:32: Python - django
+2015-07-10 16:06: Python - mailing list
+2015-07-10 16:14: break ***
+2015-07-10 16:25: Python - mailing list
+2015-07-10 16:34: break ***
+2015-07-10 16:45: Beekeeping
+2015-07-10 17:00: break ***
+2015-07-10 17:35: Beekeeping
+2015-07-10 17:49: break ***
+2015-07-10 18:11: Beekeeping
+2015-07-10 20:24: Beekeeping
+2015-07-10 22:30: Beekeeping
+2015-07-10 23:55: break ***
+
+2015-07-11 00:05: start
+2015-07-11 00:54: Beekeeping
+2015-07-11 23:18: break ***
+2015-07-11 23:59: Beekeeping - mailing list
+
+2015-07-12 00:00: start
+2015-07-12 00:16: Beekeeping - mailing list
+
+2015-07-13 11:05: start
+2015-07-13 11:28: Python - mailing list
+2015-07-13 12:00: Python - django
+2015-07-13 13:22: Beekeeping
+2015-07-13 18:40: break ***
+2015-07-13 18:59: Beekeeping - mailing list
+2015-07-13 19:25: break ***
+2015-07-13 19:48: Beekeeping
+2015-07-13 19:55: break ***
+2015-07-13 21:19: Python - django
+2015-07-13 21:30: Beekeeping
+
+2015-07-14 17:18: start
+2015-07-14 17:23: Beekeeping - mailing list
+2015-07-14 17:39: Beekeeping
+2015-07-14 18:35: Europython
+2015-07-14 19:15: Beekeeping - mailing list
+
+2015-07-15 13:36: start
+2015-07-15 14:15: Beekeeping
+2015-07-15 16:08: Europython
+2015-07-15 16:51: Beekeeping
+2015-07-15 16:52: Beekeeping
+2015-07-15 20:38: Europython
+2015-07-15 21:28: Beekeeping
+
+2015-07-16 12:46: start
+2015-07-16 13:02: Python - django
+2015-07-16 17:49: Europython
+2015-07-16 18:05: Beekeeping
+2015-07-16 19:21: Europython
+2015-07-16 20:15: Europython
+2015-07-16 20:52: Beekeeping
+2015-07-16 21:06: Beekeeping - mailing list
+2015-07-16 22:57: break ***
+2015-07-16 23:21: Beekeeping
+
+2015-07-17 00:02: start
+2015-07-17 00:22: Python - django
