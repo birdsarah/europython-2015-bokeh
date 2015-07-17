@@ -5,7 +5,7 @@ Slides built with hacker-slides (an awesome authoring tool for reveal.js) - http
 To run the slides: 
 
 - install flask
-- `./main.py`
+- `./slides.py`
 
 
 To run the ipython notebooks:
