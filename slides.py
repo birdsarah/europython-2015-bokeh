@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-import shutil
 import os
+import sys
 
 from flask import Flask
 from flask import request
@@ -9,7 +9,7 @@ from flask import make_response
 
 app = Flask(__name__)
 
-SLIDES_LOCATION = "static/europython-2015-bokeh.md"
+SLIDES_LOCATION = "static/slides.md"
 
 
 @app.route('/')
@@ -32,5 +32,5 @@ def save_slides():
 
 if __name__ == '__main__':
     if not os.path.isfile(SLIDES_LOCATION):
-        shutil.copy("initial-slides.md", SLIDES_LOCATION)
+        sys.exit('Please create %s' % SLIDES_LOCATION)
     app.run('0.0.0.0', 8000, debug=True)
