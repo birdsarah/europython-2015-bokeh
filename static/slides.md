@@ -20,7 +20,7 @@ github.com/birdsarah/gtimelog-viz
 
 ### slides
 
-github.com/birdsarah/europython-2015-bokeh
+birdsarah.github.io/europython-2015-bokeh
 
 ### me
 
@@ -131,12 +131,7 @@ optional
 .... and there's more in a couple of hours - Fabio Pliger's talk.
 ---
 
-Data.....
-
-![Grumpy cat](images/grumpy_cat.jpg)
-
-Spend at least half of my time getting data in the right shape.
----
+# Data.....
 
 At the heart of Bokeh is the `ColumnDataSource`
 
@@ -145,6 +140,10 @@ At the heart of Bokeh is the `ColumnDataSource`
 |0|1 
 |1|2
 |3|4
+
+[notebooks/ColumnDataSource.ipynb](http://localhost:8888/notebooks/notebooks/ColumnDataSource.ipynb)
+
+---
 
 and the `Plot`
 
@@ -160,11 +159,62 @@ p = figure()
 from bokeh.plotting import Chart
 p = Chart()
 ```
-They're all the same thing with the same methods / attributes on them.
+They're basically the same thing with the same key methods/attributes on them.
+
+[notebooks/Plot.ipynb](http://localhost:8888/notebooks/notebooks/Plot.ipynb)
+
+---
+# chart
+
+![Bar chart](images/bar_chart.png)
+
+[notebooks/Chart.ipynb](http://localhost:8888/notebooks/notebooks/Chart.ipynb)
+
+---
+# io
+
+output_notebook
+```python
+from bokeh.io import output_notebook, show
+output_notebook()
+
+bar = Bar(bar_df, stacked=True, palette=['purple', 'gray'])
+
+show(bar)
+```
+
+output_file
+```python
+from bokeh.io import output_file, show
+output_file('my_bar_chart.html', mode='cdn')  # CDN mode keeps your output small
+
+bar = Bar(bar_df, stacked=True, palette=['purple', 'gray'])
+
+show(bar)  # Also see save(bar)
+```
+
 ---
 
-Let's get started with a chart:
-http://localhost:888
+# Plotting
+
+![Plotting](images/plotting.png)
+
+[notebooks/Plotting.ipynb](http://localhost:8888/notebooks/notebooks/Plotting.ipynb)
+
+---
+
+# Plotting
+````python
+source = ColumnDataSource(data)
+p = figure(
+    x_range=Range1d(start, end),  # start & end time for x_range 
+    y_range=FactorRange(factors=activities), # list of categoeis for y_range
+    plot_height=300, plot_width=800
+)
+p.quad(left='start', right='end', top='activity_top', bottom='activity_bottom', source=source)
+````
+---
+
 
 ---
 
@@ -180,8 +230,6 @@ They're all the same thing though
 
 # Further reading
 
-* User guide - [bokeh.pydata.org/en/latest/docs/user_guide.html](http://bokeh.pydata.org/en/latest/docs/user_guide.html)
+* Exporting & Embedding - [bokeh.pydata.org/docs/reference/resources_embedding.html](http://bokeh.pydata.org/docs/reference/resources_embedding.html)
+* User guide - [bokeh.pydata.org/docs/user_guide.html](http://bokeh.pydata.org/docs/user_guide.html)
 * Tutorial notebooks - [github.com/bokeh/bokeh-notebooks/tutorial](http://github.com/bokeh/bokeh-notebooks/tutorial)
-
----
-
