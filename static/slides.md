@@ -141,11 +141,8 @@ At the heart of Bokeh is the `ColumnDataSource`
 |1|2
 |3|4
 
----
+[notebooks/ColumnDataSource.ipynb](http://localhost:8888/notebooks/notebooks/ColumnDataSource.ipynb)
 
-# `ColumnDataSource`
-
-http://localhost:8888/notebooks/notebooks/ColumnDataSource.ipynb
 ---
 
 and the `Plot`
@@ -164,13 +161,14 @@ p = Chart()
 ```
 They're basically the same thing with the same key methods/attributes on them.
 
-http://localhost:8888/notebooks/notebooks/Plot.ipynb
+[notebooks/Plot.ipynb](http://localhost:8888/notebooks/notebooks/Plot.ipynb)
+
 ---
 # chart
 
 ![Bar chart](images/bar_chart.png)
 
-http://localhost:8888/notebooks/notebooks/Chart.ipynb
+[notebooks/Chart.ipynb](http://localhost:8888/notebooks/notebooks/Chart.ipynb)
 
 ---
 # io
@@ -195,10 +193,28 @@ bar = Bar(bar_df, stacked=True, palette=['purple', 'gray'])
 show(bar)  # Also see save(bar)
 ```
 
+---
+
+# Plotting
+
+![Plotting](images/plotting.png)
+
+[notebooks/Plotting.ipynb](http://localhost:8888/notebooks/notebooks/Plotting.ipynb)
 
 ---
 
 # Plotting
+````python
+source = ColumnDataSource(data)
+p = figure(
+    x_range=Range1d(start, end),  # start & end time for x_range 
+    y_range=FactorRange(factors=activities), # list of categoeis for y_range
+    plot_height=300, plot_width=800
+)
+p.quad(left='start', right='end', top='activity_top', bottom='activity_bottom', source=source)
+````
+---
+
 
 ---
 

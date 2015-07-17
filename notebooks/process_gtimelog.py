@@ -2,8 +2,6 @@ import datetime
 import pandas as pd
 import numpy as np
 
-TODAY = datetime.datetime(2015, 6, 22)
-
 
 def get_work_df():
     """
@@ -19,8 +17,9 @@ def get_processed_df():
 
 
 def get_today_df():
+    today = datetime.datetime(2015, 6, 22)
     processed = add_processed_columns(get_work_df())
-    return get_today(TODAY, processed)
+    return get_today(today, processed)
 
 
 def get_bar_chart_df(today_df):
@@ -31,6 +30,22 @@ def get_bar_chart_df(today_df):
     summed['from total'] = summed.human.sum() - summed.human
 
     return summed
+
+
+def get_plotting_chart_df():
+    processed = get_processed_df()
+    today = datetime.datetime(2015, 7, 10)
+    start = today - datetime.timedelta(days=2)  # Start the plot two days ago
+    end = today
+
+    df = processed[(processed.timestamp >= start) & (processed.timestamp <= end)]
+    df = df[df.activity != 'start']
+    df['activity_bottom'] = df.formatted_activity + ':0.1'
+    df['activity_top'] = df.formatted_activity + ':0.9'
+    # Note Cannot serialize time deltas so don't want in source
+    data = df[['start', 'end', 'formatted_activity', 'activity_bottom', 'activity_top']]
+    activities = list(data.formatted_activity.unique())
+    return start, end, activities, data
 
 
 def _get_raw_df():
