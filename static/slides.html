@@ -83,12 +83,11 @@
 
             function insertMarkdownReference() {
               var markdownReference = $('<section/>', {
-                  'data-markdown': "europython-2015-bokeh.md",
+                  'data-markdown': "/slides.md",
                   'data-separator': "^-( *)-( *)-( *-*)*",
                   'data-separator-notes': "^Note:",
                   'data-charset': "utf-8"
               });
-
               $('.slides').html(markdownReference);
             }
 
