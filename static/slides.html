@@ -82,8 +82,9 @@
             }
 
             function insertMarkdownReference() {
+              var markdownLink = isPreview() ? "/slides" : "slides.md";
               var markdownReference = $('<section/>', {
-                  'data-markdown': "/slides.md",
+                  'data-markdown': markdownLink,
                   'data-separator': "^-( *)-( *)-( *-*)*",
                   'data-separator-notes': "^Note:",
                   'data-charset': "utf-8"

@@ -17,13 +17,13 @@ def index():
     return app.send_static_file('index.html')
 
 
-@app.route('/slides.md', methods=['GET'])
+@app.route('/slides', methods=['GET'])
 def get_slides():
     with open(SLIDES_LOCATION, encoding='utf-8') as fp:
         return fp.read()
 
 
-@app.route('/slides.md', methods=['PUT'])
+@app.route('/slides', methods=['PUT'])
 def save_slides():
     new_slides = request.get_data().decode('utf-8')
     with open(SLIDES_LOCATION, 'w', encoding='utf-8') as fp:
