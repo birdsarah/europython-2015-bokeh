@@ -23,7 +23,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 i.bokeh {
-  background-image: url("../../europython/images/bokeh-transparent.png");
+  background-image: url("../../images/bokeh-transparent.png");
   display: inline-block;
   background-size: 1em;
   height: 1em;
@@ -420,7 +420,7 @@ body {
 }
 .reveal li {
   margin-top: 0.1em;
-  list-style-image: url("../../europython/images/bokeh-bullet.png");
+  list-style-image: url("../../images/bokeh-bullet.png");
 }
 .reveal li li {
   list-style-image: none;
