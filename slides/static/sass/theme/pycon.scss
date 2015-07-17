@@ -5,14 +5,13 @@
 
 
 // Default mixins and settings -----------------
-@import "../template/mixins";
-@import "../template/settings";
+@import "template/mixins";
+@import "template/settings";
 // ---------------------------------------------
 
 
 // Include theme-specific fonts
 @import url(../../lib/font/source-sans-pro/source-sans-pro.css);
-@import url(../../lib/font/font-awesome/css/font-awesome.css);
 
 
 // Override theme settings (see ../template/settings.scss)
@@ -60,7 +59,7 @@ section.has-dark-background {
 }
 
 i.bokeh {
-    background-image: url("../../../images/bokeh-transparent.png");
+    background-image: url("../../europython/images/bokeh-transparent.png");
     display: inline-block;
     background-size: 1em;
     height: 1em;
@@ -83,7 +82,7 @@ i.bokeh {
 }
 
 // Theme template ------------------------------
-@import "../template/theme";
+@import "template/theme";
 // ---------------------------------------------
 
 // Reveal overrides ----------------------------
@@ -139,7 +138,7 @@ i.bokeh {
     }
     li {
         margin-top: 0.1em;
-        list-style-image: url("../../../images/bokeh-bullet.png");
+        list-style-image: url("../../europython/images/bokeh-bullet.png");
         li {
             list-style-image: none;
             list-style-type: none;

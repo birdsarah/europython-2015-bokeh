@@ -1,5 +1,4 @@
 flask
-Werkzeug
-Jinja2
-itsdangerous
-markupsafe
+ipython-notebook
+bokeh
+pandas
