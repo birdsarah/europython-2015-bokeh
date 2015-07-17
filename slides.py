@@ -9,7 +9,7 @@ from flask import make_response
 
 app = Flask(__name__)
 
-SLIDES_LOCATION = "/home/bird/.hackerslides/europython-2015-bokeh.md"
+SLIDES_LOCATION = "static/europython-2015-bokeh.md"
 
 
 @app.route('/')
