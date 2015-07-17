@@ -1,0 +1,164 @@
+/**
+ * Pycon 2015 Theme, based on White theme for reveal.js. 
+ *
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+@import url(../../lib/font/font-awesome/css/font-awesome.css);
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #fff;
+
+$mainColor: #222;
+$headingColor: #222;
+
+$pink: #FF5E99;
+
+$mainFontSize: 38px;
+$mainFont: 'News Cycle', 'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: 'News Cycle', 'Source Sans Pro', Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: normal;
+$headingFontWeight: 400;
+$linkColor: #458;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2.0em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+section.has-dark-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #fff;
+	}
+}
+
+.slide_image {
+    position: absolute;
+    right: 0em;
+    bottom: -3.5em;
+    z-index: -10;
+}
+.home_image {
+    position: absolute;
+    height: 55%;
+    right: 0em;
+    top: 4em;
+    z-index: -10;
+}
+
+i.bokeh {
+    background-image: url("../../../images/bokeh-transparent.png");
+    display: inline-block;
+    background-size: 1em;
+    height: 1em;
+    width: 1em;
+    background-position: 0 0.1em;
+    background-repeat: no-repeat;
+}
+
+.attribution {
+    clear: both;
+    > img {
+        width: 20%;
+        float: right;
+    }
+    > p {
+        clear: both;
+        font-size: 0.5em;
+        text-align: right;
+    }
+}
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+// Reveal overrides ----------------------------
+
+.reveal {
+    position: relative; 
+
+    .slides {
+        text-align: left;
+    }
+    pre {
+        width: 100%;
+        code {
+            display: block;
+            padding: 5px;
+            padding-left: 1em;
+            overflow: auto;
+            max-height: 600px;
+            word-wrap: normal;
+            background: #FCFCFC;
+            color: #000000;
+        }
+    }
+    .highlight {
+        padding: 0 .2em;
+        background-color: $pink;;
+        color: white;
+    }
+
+    .footer {
+        position: absolute;
+        top: .5em;
+        right: 1em;
+        font-size: 0.8em;
+    }
+
+    section img {
+        border: none;
+        box-shadow: none;
+    }
+
+    iframe {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    ul {
+        padding-left: 1em;
+        ul {
+            padding-left: 0em;
+            font-size: 0.8em
+        }
+    }
+    li {
+        margin-top: 0.1em;
+        list-style-image: url("../../../images/bokeh-bullet.png");
+        li {
+            list-style-image: none;
+            list-style-type: none;
+            pre {
+                box-shadow: none;
+                margin-top: 0.5em;
+                font-size: 1.0em;
+            }
+        }
+    }
+
+    .side_by_side {
+        width: 45%;
+        display: inline-block;
+        &.left {
+            float: left;
+        }
+        &.right {
+            float: right;
+        }
+    }
+}
