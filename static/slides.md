@@ -20,7 +20,7 @@ github.com/birdsarah/gtimelog-viz
 
 ### slides
 
-github.com/birdsarah/europython-2015-bokeh
+birdsarah.github.io/europython-2015-bokeh
 
 ### me
 
@@ -131,12 +131,7 @@ optional
 .... and there's more in a couple of hours - Fabio Pliger's talk.
 ---
 
-Data.....
-
-![Grumpy cat](images/grumpy_cat.jpg)
-
-Spend at least half of my time getting data in the right shape.
----
+# Data.....
 
 At the heart of Bokeh is the `ColumnDataSource`
 
@@ -145,6 +140,15 @@ At the heart of Bokeh is the `ColumnDataSource`
 |0|1 
 |1|2
 |3|4
+
+---
+
+![Grumpy cat](images/grumpy_cat.jpg)
+
+Spend at least half of my time getting data in the right shape.
+---
+
+---
 
 and the `Plot`
 
@@ -182,6 +186,3 @@ They're all the same thing though
 
 * User guide - [bokeh.pydata.org/en/latest/docs/user_guide.html](http://bokeh.pydata.org/en/latest/docs/user_guide.html)
 * Tutorial notebooks - [github.com/bokeh/bokeh-notebooks/tutorial](http://github.com/bokeh/bokeh-notebooks/tutorial)
-
----
-
