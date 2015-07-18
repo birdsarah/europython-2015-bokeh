@@ -16,5 +16,5 @@ To run the ipython notebooks:
 
 For the links in the slides to work:
 
-- ipython-notebook needs to be running at localhost:8888
+- ipython-notebook needs to be running at localhost:8888 (from root of this directory)
 - gtimelog-viz needs to be running at localhost:5000

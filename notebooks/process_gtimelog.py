@@ -2,6 +2,8 @@ import datetime
 import pandas as pd
 import numpy as np
 
+from bokeh.models import ColumnDataSource
+
 
 def get_work_df():
     """
@@ -17,7 +19,8 @@ def get_processed_df():
 
 
 def get_today_df():
-    today = datetime.datetime(2015, 6, 22)
+#    today = datetime.datetime(2015, 6, 22)
+    today = datetime.datetime(2015, 7, 10)
     processed = add_processed_columns(get_work_df())
     return get_today(today, processed)
 
@@ -46,6 +49,40 @@ def get_plotting_chart_df():
     data = df[['start', 'end', 'formatted_activity', 'activity_bottom', 'activity_top']]
     activities = list(data.formatted_activity.unique())
     return start, end, activities, data
+
+
+def get_models_sources_and_activities():
+    raw = get_processed_df()
+    first_day = raw.loc[0, 'timestamp']
+    last_day = datetime.datetime.today()
+
+    parent_activities = list(raw.parent_activity.unique())
+    parent_activities.remove('Start')
+
+    start_df = raw[raw.activity == 'start']
+    nan_df = start_df.copy()
+    nan_df['delta'] = np.NaN
+    nan_df['activity'] = '_'
+
+    dfs = {}
+
+    # Build a dictionary of frames - one for each category
+    for parent_activity in parent_activities:
+        activity_df = raw[raw.parent_activity == parent_activity]
+
+        # Add in the start rows with 0 deltas and do cumsum
+        activity_df = activity_df.append(start_df)
+        activity_df.sort('timestamp', inplace=True)
+        activity_df['cumsum'] = np.cumsum(activity_df.groupby(activity_df.timestamp.dt.date)['delta'])
+        activity_df['cumsum_hrs'] = activity_df['cumsum'].dt.seconds / (60 * 60)
+
+        # Add in the nan rows so bokeh can plobt
+        activity_df = activity_df.append(nan_df)
+        activity_df.sort(['timestamp', 'activity'], inplace=True)
+
+        dfs[parent_activity] = ColumnDataSource(activity_df[['cumsum_hrs', 'timestamp']])
+
+    return first_day, last_day, dfs, parent_activities
 
 
 def _get_raw_df():
