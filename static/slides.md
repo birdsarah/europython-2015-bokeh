@@ -1,13 +1,9 @@
-
-# Getting started with Bokeh 
-Let's build an interactive data visualization for the web...
-
-## in Python! 
-
-#### Sarah Bird - Europython 2015
-
 ![Bokeh logo](images/logo.svg)
 
+# Getting started with Bokeh 
+Let's build an interactive data visualization for the web...in Python! 
+
+#### Sarah Bird - Europython 2015
 ---
 <a href="http://localhost:5000">Live demo....</a>
 ![Sneak Peak](images/dashboard.png)
@@ -123,8 +119,7 @@ optional
 * charts 
 * plotting 
 * models 
-* layout
-* embedding
+* layout & embedding
 * styling
 * interactive
 
@@ -215,6 +210,61 @@ p.quad(left='start', right='end', top='activity_top', bottom='activity_bottom', 
 ````
 ---
 
+# Models
+![Models](images/models.png)
+
+[notebooks/Models.ipynb](http://localhost:8888/notebooks/notebooks/Models.ipynb)
+
+---
+
+# Models
+
+* [bokeh.pydata.org/docs/reference/models.html](http://bokeh.pydata.org/en/latest/docs/reference/models.html)
+* [github.com/bokeh/bokeh/tree/master/examples/glyphs](https://github.com/bokeh/bokeh/tree/master/examples/glyphs) - download and run them!
+
+---
+
+# Layout & Embedding
+````python
+from bokeh.io import vplot, hplot
+
+from bokeh.embed import components
+````
+[notebooks/Layout-Embed.ipynb](http://localhost:8888/notebooks/notebooks/Layout-Embed.ipynb)
+
+---
+
+# Styling
+
+---
+
+# Interactive
+
+
+---
+
+* data
+* io
+* charts 
+* plotting 
+* models 
+* layout & embedding
+* styling
+* interactive
+
+.... and there's more in a couple of hours - Fabio Pliger's talk.
+
+* widgets
+* server
+* other data sources
+
+---
+
+# Questions
+
+[github.com/bokeh/bokeh/](https://github.com/bokeh/bokeh/)
+
+[groups.google.com/a/continuum.io/forum/#!forum/bokeh](https://groups.google.com/a/continuum.io/forum/#!forum/bokeh)
 
 ---
 
