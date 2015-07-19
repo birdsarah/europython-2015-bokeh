@@ -123,12 +123,36 @@ from bokeh.plotting import figure
 p = figure()
 ```
 ```python
-from bokeh.plotting import Chart
+from bokeh.charts import Chart
 p = Chart()
 ```
 They're basically the same thing with the same key methods/attributes on them.
 
 [notebooks/Plot.ipynb](http://localhost:8888/notebooks/notebooks/Plot.ipynb)
+
+---
+
+#"Glyphs" ????
+
+![confused](images/confused_panda.jpg)
+
+---
+
+#[Glyphs == Shapes](http://localhost:8000/static/demos/glyphs.html)
+
+---
+
+![Sneak Peak](images/sneak_peak.png)
+
+* data
+* charts 
+* io
+* plotting 
+* models 
+* layout & embedding
+* styling
+* interactive
+
 
 ---
 
