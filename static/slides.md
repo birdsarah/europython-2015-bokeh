@@ -359,123 +359,9 @@ from bokeh.embed import components
 
 ---
 
-# Styling
-=======
 Add some tables `pandas.DataFrame.to_html()` and a more complete template
 
 [live demo. ...](http://localhost:5000/2015-07-10/)
-
-One of the areas where models vs plotting/charts becomes obvious.
-Models can become more succinct, and eaier to read (I think).
-
-Anything is possible on all versions - pick your favorite.
-
----
-
-# Styling a chart
-
-```python
-    plot = Bar(
-        data, stacked=True
-        width=200, height=200, 
-        palette=[color, COLOR_PRIMARY_DARK], tools=''
-    )
-
-    # Get chart items
-    glyphs = plot.select({'type': GlyphRenderer})
-    xaxis = plot.select({'type': CategoricalAxis})
-    yaxis = plot.select({'type': LinearAxis})
-    ygrid = plot.select({'type': Grid})
-
-    # Format chart properties
-    plot.toolbar_location = None
-    plot.background_fill = COLOR_PRIMARY
-    plot.border_fill = COLOR_PRIMARY
-    plot.outline_line_color = None
-    plot.min_border = 5
-    plot.min_border_top = 0
-
-    # Format lines
-    for g in glyphs:
-        g.glyph.fill_alpha = 1
-        g.glyph.line_color = None
-
-    # Set xaxis properties
-    xaxis.major_label_text_color = COLOR_PRIMARY_CONTRAST
-    xaxis.major_label_orientation = 0
-    xaxis.major_label_standoff = 15
-    xaxis.major_tick_out = None
-    xaxis.major_tick_in = None
-    xaxis.axis_line_color = None
-
-    # Set yaxis properties
-    yaxis.major_label_text_color = COLOR_PRIMARY_CONTRAST
-    yaxis.major_tick_out = None
-    yaxis.major_tick_in = None
-    yaxis.axis_line_color = None
-
-    # Grid lines
-    ygrid.grid_line_color = None
-```
----
-
-# Styling with models
-
-```python
-p = Plot(
-    x_range=FactorRange(factors=source.data.get('cat')),
-    y_range=Range1d(0, 9),
-    toolbar_location=None,
-    background_fill=COLOR_PRIMARY,
-    border_fill=COLOR_PRIMARY,
-    outline_line_color=None,
-    min_border=5,
-)
-
-AXIS_PROPERTIES = dict(
-    major_label_text_color=COLOR_PRIMARY_CONTRAST,
-    axis_line_color=None,
-    major_tick_line_color=None,
-    minor_tick_line_color=None,
-)
-y_axis = LinearAxis(**AXIS_PROPERTIES)
-x_axis = CategoricalAxis(**AXIS_PROPERTIES)
-
-RECT_PROPERTIES = dict(x="cat", width="width", line_color=None)
-base = Rect(y='yhuman', height='human', fill_color=COLOR_ACCENT, **RECT_PROPERTIES)
-total = Rect(y='ytotal', height='total', fill_color=COLOR_PRIMARY_DARK, **RECT_PROPERTIES)
-
-p.add_layout(y_axis, 'left')
-p.add_layout(x_axis, 'below')
-p.add_glyph(source, base)
-p.add_glyph(source, total)
-```
-
----
-
-A "stylesheet"
-
-````python
-PALETTE_GREY_900 = '#212121'
-PALETTE_GREY_700 = '#616161'
-PALETTE_PINK_A400 = '#f50057'
-
-COLOR_DARK_CONTRAST = 'white'
-
-COLOR_PRIMARY = PALETTE_GREY_900
-COLOR_PRIMARY_DARK = PALETTE_GREY_700
-COLOR_ACCENT = PALETTE_PINK_A400
-
-COLOR_PRIMARY_CONTRAST = COLOR_DARK_CONTRAST
-COLOR_ACCENT_CONTRAST = COLOR_DARK_CONTRAST
-
-AXIS_PROPERTIES = dict(
-    major_label_text_color=COLOR_PRIMARY_CONTRAST,
-    axis_line_color=COLOR_PRIMARY,
-    major_tick_line_color=COLOR_PRIMARY,
-    minor_tick_line_color=COLOR_PRIMARY,
-)
-````
 
 ---
 
@@ -608,3 +494,4 @@ They're all the same thing though
 * Exporting & Embedding - [bokeh.pydata.org/docs/reference/resources_embedding.html](http://bokeh.pydata.org/docs/reference/resources_embedding.html)
 * User guide - [bokeh.pydata.org/docs/user_guide.html](http://bokeh.pydata.org/docs/user_guide.html)
 * Tutorial notebooks - [github.com/bokeh/bokeh-notebooks/tutorial](http://github.com/bokeh/bokeh-notebooks/tutorial)
+
