@@ -25,7 +25,9 @@ def get_today_df():
     return get_today(today, processed)
 
 
-def get_bar_chart_df(today_df):
+def get_bar_chart_df(today_df=None):
+    if not today_df:
+        today_df = get_today_df()
     categories = list(today_df.parent_activity.unique())
 
     parent_df = today_df[today_df.parent_activity == categories[0]]

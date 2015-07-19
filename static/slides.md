@@ -222,6 +222,131 @@ p.quad(left='start', right='end', top='activity_top', bottom='activity_bottom', 
 * [bokeh.pydata.org/docs/reference/models.html](http://bokeh.pydata.org/en/latest/docs/reference/models.html)
 * [github.com/bokeh/bokeh/tree/master/examples/glyphs](https://github.com/bokeh/bokeh/tree/master/examples/glyphs) - download and run them!
 
+
+---
+
+# Styling
+
+One of the areas where models vs plotting/charts becomes obvious.
+Models can become more succinct, and eaier to read (I think).
+
+Anything is possible on all versions - pick your favorite.
+
+---
+
+# Styling a chart
+
+```python
+    plot = Bar(
+        data, stacked=True,
+        width=200, height=200, 
+        palette=[color, COLOR_PRIMARY_DARK], tools=''
+    )
+
+    # Get chart items
+    glyphs = plot.select({'type': GlyphRenderer})
+    xaxis = plot.select({'type': CategoricalAxis})
+    yaxis = plot.select({'type': LinearAxis})
+    ygrid = plot.select({'type': Grid})
+
+    # Format chart properties
+    plot.toolbar_location = None
+    plot.background_fill = COLOR_PRIMARY
+    plot.border_fill = COLOR_PRIMARY
+    plot.outline_line_color = None
+    plot.min_border = 5
+    plot.min_border_top = 0
+
+    # Format lines
+    for g in glyphs:
+        g.glyph.fill_alpha = 1
+        g.glyph.line_color = None
+
+    # Set xaxis properties
+    xaxis.major_label_text_color = COLOR_PRIMARY_CONTRAST
+    xaxis.major_label_orientation = 0
+    xaxis.major_label_standoff = 15
+    xaxis.major_tick_out = None
+    xaxis.major_tick_in = None
+    xaxis.axis_line_color = None
+
+    # Set yaxis properties
+    yaxis.major_label_text_color = COLOR_PRIMARY_CONTRAST
+    yaxis.major_tick_out = None
+    yaxis.major_tick_in = None
+    yaxis.axis_line_color = None
+
+    # Grid lines
+    ygrid.grid_line_color = None
+```
+---
+
+# Styling with models
+
+```python
+p = Plot(
+    x_range=FactorRange(factors=source.data.get('cat')),
+    y_range=Range1d(0, 9),
+    toolbar_location=None,
+    background_fill=COLOR_PRIMARY,
+    border_fill=COLOR_PRIMARY,
+    outline_line_color=None,
+    min_border=5,
+)
+
+AXIS_PROPERTIES = dict(
+    major_label_text_color=COLOR_PRIMARY_CONTRAST,
+    axis_line_color=None,
+    major_tick_line_color=None,
+    minor_tick_line_color=None,
+)
+y_axis = LinearAxis(**AXIS_PROPERTIES)
+x_axis = CategoricalAxis(**AXIS_PROPERTIES)
+
+RECT_PROPERTIES = dict(x="cat", width="width", line_color=None)
+base = Rect(y='yhuman', height='human', fill_color=COLOR_ACCENT, **RECT_PROPERTIES)
+total = Rect(y='ytotal', height='total', fill_color=COLOR_PRIMARY_DARK, **RECT_PROPERTIES)
+
+p.add_layout(y_axis, 'left')
+p.add_layout(x_axis, 'below')
+p.add_glyph(source, base)
+p.add_glyph(source, total)
+```
+
+---
+
+A "stylesheet"
+
+````python
+PALETTE_GREY_900 = '#212121'
+PALETTE_GREY_700 = '#616161'
+PALETTE_PINK_A400 = '#f50057'
+
+COLOR_DARK_CONTRAST = 'white'
+
+COLOR_PRIMARY = PALETTE_GREY_900
+COLOR_PRIMARY_DARK = PALETTE_GREY_700
+COLOR_ACCENT = PALETTE_PINK_A400
+
+COLOR_PRIMARY_CONTRAST = COLOR_DARK_CONTRAST
+COLOR_ACCENT_CONTRAST = COLOR_DARK_CONTRAST
+
+AXIS_PROPERTIES = dict(
+    major_label_text_color=COLOR_PRIMARY_CONTRAST,
+    axis_line_color=COLOR_PRIMARY,
+    major_tick_line_color=COLOR_PRIMARY,
+    minor_tick_line_color=COLOR_PRIMARY,
+)
+````
+
+
+---
+Read the docs:
+[bokeh.pydata.org/docs/user_guide/styling.html](http://bokeh.pydata.org/en/latest/docs/user_guide/styling.html)
+
+Experiment: 
+[notebooks/Prototyping.ipynb](http://localhost:8888/notebooks/notebooks/Prototyping.ipynb)
+
 ---
 
 # Layout & Embedding
@@ -234,8 +359,11 @@ from bokeh.embed import components
 
 ---
 
-
 # Styling
+=======
+Add some tables `pandas.DataFrame.to_html()` and a more complete template
+
+[live demo. ...](http://localhost:5000/2015-07-10/)
 
 One of the areas where models vs plotting/charts becomes obvious.
 Models can become more succinct, and eaier to read (I think).
@@ -353,6 +481,90 @@ AXIS_PROPERTIES = dict(
 
 # Interactive
 
+* Tools - Hover, Select, Zoom, Pan
+* Shared selection & panning
+
+[notebooks/Tools_Selection_Panning.ipynb](http://localhost:8888/notebooks/notebooks/Tools_Selection_Panning.ipynb)
+
+---
+
+# Callbacks
+
+Write a small piece of javascript to happen on interaction.
+
+* Widgets - Button, Toggle, Dropdown, TextInput, AutocompleteInput, Select, Multiselect, Slider, (DateRangeSlider), DatePicker, 
+* Tools - TapTool*, BoxSelectTool, HoverTool, 
+* Selection - ColumnDataSource, AjaxDataSource, BlazeDataSource, ServerDataSource
+* Ranges - Range1d, DataRange1d, FactorRange
+
+---
+
+![alot](images/alot.png)
+
+---
+
+<iframe width=900 height=500 src="http://localhost:8002/gapminder_simple.html"></iframe>
+
+Slider - change source of Text and Bubbles
+
+---
+
+![alot python](images/alot_more_python_2.png)
+
+* Pre-built "actions" - e.g. OpenURL
+
+---
+
+[change color](http://localhost:5000/2015-07-10/)
+
+```python
+
+from bokeh.models import Plot, Range1d, Callback, ...
+
+plot = Plot(
+    x_range=Range1d(start=two_weeks_ago, end=one_week_forward),
+    # configure all the other pieces....
+)
+
+plot.x_range.callback = Callback(
+    code="""
+        $("#timesheet_submit").addClass("mdl-button--colored");
+    """
+)
+
+```
+---
+
+Use your python objects
+
+````python
+source = ColumnDataSource(data)
+
+code = 
+
+callback = Callback(
+    args={'my_column_data_source': source}, 
+    code="my_column_data_source.set('selected', cb_data['index']);"
+)
+
+plot.add_tools(HoverTool(tooltips=None, callback=callback))
+````
+
+---
+
+# Use ALL YOUR PYTHON OBJECTS
+
+```python
+script, divs = components({
+        'all_time_line': all_time_line,
+        'detail_time_line': detail_time_line,
+        'time_log': time_log,
+        'beekeeping': today_plots['Beekeeping_bar'],
+        'python': today_plots['Python_bar'],
+    })
+```
+
+[live demo](http://localhost:5000/2015-07-10/)
 
 ---
 
