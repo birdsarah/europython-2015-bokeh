@@ -300,7 +300,11 @@ Anything is possible on all versions - pick your favorite.
 
     # Grid lines
     ygrid.grid_line_color = None
+    
+    show(plot)
 ```
+
+[notebooks/Prototyping.ipynb](http://localhost:8888/notebooks/notebooks/Prototyping.ipynb)
 ---
 
 # Styling with models
@@ -316,6 +320,7 @@ p = Plot(
     min_border=5,
 )
 
+# Make the axes
 AXIS_PROPERTIES = dict(
     major_label_text_color=COLOR_PRIMARY_CONTRAST,
     axis_line_color=None,
@@ -325,14 +330,18 @@ AXIS_PROPERTIES = dict(
 y_axis = LinearAxis(**AXIS_PROPERTIES)
 x_axis = CategoricalAxis(**AXIS_PROPERTIES)
 
+# MAke the glyphs
 RECT_PROPERTIES = dict(x="cat", width="width", line_color=None)
 base = Rect(y='yhuman', height='human', fill_color=COLOR_ACCENT, **RECT_PROPERTIES)
 total = Rect(y='ytotal', height='total', fill_color=COLOR_PRIMARY_DARK, **RECT_PROPERTIES)
 
+# Put it all together
 p.add_layout(y_axis, 'left')
 p.add_layout(x_axis, 'below')
 p.add_glyph(source, base)
 p.add_glyph(source, total)
+
+show(p)
 ```
 
 ---
@@ -353,21 +362,52 @@ COLOR_ACCENT = PALETTE_PINK_A400
 COLOR_PRIMARY_CONTRAST = COLOR_DARK_CONTRAST
 COLOR_ACCENT_CONTRAST = COLOR_DARK_CONTRAST
 
+PLOT_PROPERTIES = dict(
+    toolbar_location=None,
+    background_fill=COLOR_PRIMARY,
+    border_fill=COLOR_PRIMARY,
+    outline_line_color=None,
+    min_border=5,
+)
+
 AXIS_PROPERTIES = dict(
     major_label_text_color=COLOR_PRIMARY_CONTRAST,
     axis_line_color=COLOR_PRIMARY,
     major_tick_line_color=COLOR_PRIMARY,
     minor_tick_line_color=COLOR_PRIMARY,
 )
-````
 
+````
+---
+
+```python
+# Make a plot
+p = Plot(
+    x_range=FactorRange(factors=source.data.get('cat')),
+    y_range=Range1d(0, 9),
+    **PLOT_PROPERTIES
+)
+
+# Make the axes
+y_axis = LinearAxis(**AXIS_PROPERTIES)
+x_axis = CategoricalAxis(**AXIS_PROPERTIES)
+
+# MAke the glyphs
+base = Rect(y='yhuman', height='human', fill_color=COLOR_ACCENT, **RECT_PROPERTIES)
+total = Rect(y='ytotal', height='total', fill_color=COLOR_PRIMARY_DARK, **RECT_PROPERTIES)
+
+# Put it all together
+p.add_layout(y_axis, 'left')
+p.add_layout(x_axis, 'below')
+p.add_glyph(source, base)
+p.add_glyph(source, total)
+
+show(p)
+```
 
 ---
 Read the docs:
 [bokeh.pydata.org/docs/user_guide/styling.html](http://bokeh.pydata.org/en/latest/docs/user_guide/styling.html)
-
-Experiment: 
-[notebooks/Prototyping.ipynb](http://localhost:8888/notebooks/notebooks/Prototyping.ipynb)
 
 ---
 
