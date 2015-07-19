@@ -18,3 +18,5 @@ For the links in the slides to work:
 
 - ipython-notebook needs to be running at localhost:8888 (from root of this directory)
 - gtimelog-viz needs to be running at localhost:5000
+- washmap running at localhost:8001
+- gapminder @ 8002 | ~/Dev/birdsarah/bokeh-miscellany/notebooks/slider_example | python -m http.server 8002

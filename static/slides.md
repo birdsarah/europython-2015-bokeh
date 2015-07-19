@@ -222,18 +222,8 @@ p.quad(left='start', right='end', top='activity_top', bottom='activity_bottom', 
 * [bokeh.pydata.org/docs/reference/models.html](http://bokeh.pydata.org/en/latest/docs/reference/models.html)
 * [github.com/bokeh/bokeh/tree/master/examples/glyphs](https://github.com/bokeh/bokeh/tree/master/examples/glyphs) - download and run them!
 
----
-
-# Layout & Embedding
-````python
-from bokeh.io import vplot, hplot
-
-from bokeh.embed import components
-````
-[notebooks/Layout-Embed.ipynb](http://localhost:8888/notebooks/notebooks/Layout-Embed.ipynb)
 
 ---
-
 
 # Styling
 
@@ -248,7 +238,7 @@ Anything is possible on all versions - pick your favorite.
 
 ```python
     plot = Bar(
-        data, stacked=True
+        data, stacked=True,
         width=200, height=200, 
         palette=[color, COLOR_PRIMARY_DARK], tools=''
     )
@@ -349,10 +339,118 @@ AXIS_PROPERTIES = dict(
 )
 ````
 
+
+---
+Read the docs:
+[bokeh.pydata.org/docs/user_guide/styling.html](http://bokeh.pydata.org/en/latest/docs/user_guide/styling.html)
+
+Experiment: 
+[notebooks/Prototyping.ipynb](http://localhost:8888/notebooks/notebooks/Prototyping.ipynb)
+
+---
+
+# Layout & Embedding
+````python
+from bokeh.io import vplot, hplot
+
+from bokeh.embed import components
+````
+[notebooks/Layout-Embed.ipynb](http://localhost:8888/notebooks/notebooks/Layout-Embed.ipynb)
+
+---
+
+Add some tables `pandas.DataFrame.to_html()` and a more complete template
+
+[live demo. ...](http://localhost:5000/2015-07-10/)
+
 ---
 
 # Interactive
 
+* Tools - Hover, Select, Zoom, Pan
+* Shared selection & panning
+
+[notebooks/Tools_Selection_Panning.ipynb](http://localhost:8888/notebooks/notebooks/Tools_Selection_Panning.ipynb)
+
+---
+
+# Callbacks
+
+Write a small piece of javascript to happen on interaction.
+
+* Widgets - Button, Toggle, Dropdown, TextInput, AutocompleteInput, Select, Multiselect, Slider, (DateRangeSlider), DatePicker, 
+* Tools - TapTool*, BoxSelectTool, HoverTool, 
+* Selection - ColumnDataSource, AjaxDataSource, BlazeDataSource, ServerDataSource
+* Ranges - Range1d, DataRange1d, FactorRange
+
+---
+
+![alot](images/alot.png)
+
+---
+
+<iframe width=900 height=500 src="http://localhost:8002/gapminder_simple.html"></iframe>
+
+Slider - change source of Text and Bubbles
+
+---
+
+![alot python](images/alot_more_python_2.png)
+
+* Pre-built "actions" - e.g. OpenURL
+
+---
+
+[change color](http://localhost:5000/2015-07-10/)
+
+```python
+
+from bokeh.models import Plot, Range1d, Callback, ...
+
+plot = Plot(
+    x_range=Range1d(start=two_weeks_ago, end=one_week_forward),
+    # configure all the other pieces....
+)
+
+plot.x_range.callback = Callback(
+    code="""
+        $("#timesheet_submit").addClass("mdl-button--colored");
+    """
+)
+
+```
+---
+
+Use your python objects
+
+````python
+source = ColumnDataSource(data)
+
+code = 
+
+callback = Callback(
+    args={'my_column_data_source': source}, 
+    code="my_column_data_source.set('selected', cb_data['index']);"
+)
+
+plot.add_tools(HoverTool(tooltips=None, callback=callback))
+````
+
+---
+
+# Use ALL YOUR PYTHON OBJECTS
+
+```python
+script, divs = components({
+        'all_time_line': all_time_line,
+        'detail_time_line': detail_time_line,
+        'time_log': time_log,
+        'beekeeping': today_plots['Beekeeping_bar'],
+        'python': today_plots['Python_bar'],
+    })
+```
+
+[live demo](http://localhost:5000/2015-07-10/)
 
 ---
 
