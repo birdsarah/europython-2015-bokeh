@@ -1,28 +1,26 @@
-![Bokeh logo](images/logo.svg)
-
 # Getting started with Bokeh 
-Let's build an interactive data visualization for the web...in Python! 
+Let's build [an interactive data visualization for the web](http://localhost:5000/2015-07-10)...in Python! 
+
+![Sneak Peak](images/sneak_peak.png)
 
 #### Sarah Bird - Europython 2015
----
-<a href="http://localhost:5000">Live demo....</a>
-![Sneak Peak](images/dashboard.png)
 
 ---
+
+### slides
+
+github.com/birdsarah/europython-2015-bokeh
 
 ### app
 
 github.com/birdsarah/gtimelog-viz
-
-### slides
-
-birdsarah.github.io/europython-2015-bokeh
 
 ### me
 
 @birdsarah
 
 ---
+
 
 # Bokeh
 <img class="slide_image" src="images/gallery-screenshot.png">
@@ -57,10 +55,6 @@ both:
 
 ---
 
-![Sneak Peak](images/dashboard.png)
-
----
-
 ![How it works](images/bokeh_basic.svg)
 
 ---
@@ -69,14 +63,14 @@ both:
 
 ---
 
-![Mockup](images/dashboard_v1.png)
+# [gtimelog dashboard](http://localhost:5000/2015-07-10)
+
+[github.com/birdsarah/gtimelog-viz](https://github.com/birdsarah/gtimelog-viz)
+![Sneak Peak](images/sneak_peak.png)
+gtimelog | Marius Gedminas | [mg.pov.lt/gtimelog](https://mg.pov.lt/gtimelog) | [github.com/gtimelog/gtimelog](https://github.com/gtimelog/gtimelog)
+
 
 ---
-
-![Mockup](images/dashboard_v1_comments.png)
-
----
-
 
 `conda install bokeh`
 
@@ -89,29 +83,6 @@ optional
 
 `pip install "ipython[notebook]" pandas`
 
-
----
-
-## bokeh.models (high customization)
-
-
-* The lowest level
-* Offers you the most control
-* Do all the work yourself
-
-<p></p>
-
-## bokeh.plotting
-
-* Tries to pick sensible defaults
-* You organize your data, it organizes your plot
-<p></p>
-
-## bokeh.charts (high speed)
-
-* One-line charts
-* Processes your data & spits out a chart
-
 ---
 
 * data
@@ -123,7 +94,8 @@ optional
 * styling
 * interactive
 
-.... and there's more in a couple of hours - Fabio Pliger's talk.
+.... and there's more this afternon - Fabio Pliger's talk 3:15pm (PythonAnywhere Room).
+
 ---
 
 # Data.....
@@ -144,7 +116,7 @@ and the `Plot`
 
 ```python
 from bokeh.models import Plot
-p = Plot
+p = Plot()
 ```
 ```python
 from bokeh.plotting import figure
@@ -157,6 +129,30 @@ p = Chart()
 They're basically the same thing with the same key methods/attributes on them.
 
 [notebooks/Plot.ipynb](http://localhost:8888/notebooks/notebooks/Plot.ipynb)
+
+---
+
+## bokeh.models (high customization)
+
+
+* The lowest level
+* Offers you the most control
+* Do all the work yourself
+
+<p></p>
+
+## bokeh.plotting
+
+* Tries to pick sensible defaults
+* You organize your data, it organizes your plot
+
+<p></p>
+
+## bokeh.charts (high speed)
+
+* One-line charts
+* Processes your data & spits out a chart
+
 
 ---
 # chart
@@ -372,6 +368,8 @@ Add some tables `pandas.DataFrame.to_html()` and a more complete template
 
 [notebooks/Tools_Selection_Panning.ipynb](http://localhost:8888/notebooks/notebooks/Tools_Selection_Panning.ipynb)
 
+[Linked-selection Hover example](http://localhost:8000/static/demos/washmap/washmap.html)
+
 ---
 
 # Callbacks
@@ -389,7 +387,7 @@ Write a small piece of javascript to happen on interaction.
 
 ---
 
-<iframe width=900 height=500 src="http://localhost:8002/gapminder_simple.html"></iframe>
+<iframe width=900 height=500 src="http://localhost:8000/static/demos/gapminder/gapminder_simple.html"></iframe>
 
 Slider - change source of Text and Bubbles
 
@@ -465,7 +463,7 @@ script, divs = components({
 
 .... and there's more in a couple of hours - Fabio Pliger's talk.
 
-* widgets
+* interactive
 * server
 * other data sources
 
