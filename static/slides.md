@@ -192,9 +192,12 @@ output_notebook
 ```python
 from bokeh.io import output_notebook, show
 output_notebook()
+```
 
+![output notebook](images/output_notebook.png)
+
+```python
 bar = Bar(bar_df, stacked=True, palette=['purple', 'gray'])
-
 show(bar)
 ```
 
@@ -204,7 +207,6 @@ from bokeh.io import output_file, show
 output_file('my_bar_chart.html', mode='cdn')  # CDN mode keeps your output small
 
 bar = Bar(bar_df, stacked=True, palette=['purple', 'gray'])
-
 show(bar)  # Also see save(bar)
 ```
 
