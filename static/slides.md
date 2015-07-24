@@ -1,5 +1,5 @@
 # Getting started with Bokeh 
-Let's build [an interactive data visualization for the web](http://localhost:5000/2015-07-10)...in Python! 
+Let's build [an interactive data visualization for the web](demos/gtimelog/gTimeLog_Dashboard.html)...in Python! 
 
 ![Sneak Peak](images/sneak_peak.png)
 
@@ -63,7 +63,7 @@ both:
 
 ---
 
-# [gtimelog dashboard](http://localhost:5000/2015-07-10)
+# [gtimelog dashboard](demos/gtimelog/gTimeLog_Dashboard.html)
 
 [github.com/birdsarah/gtimelog-viz](https://github.com/birdsarah/gtimelog-viz)
 ![Sneak Peak](images/sneak_peak.png)
@@ -112,7 +112,7 @@ At the heart of Bokeh is the `ColumnDataSource`
 
 ---
 
-and the `Plot`
+and the `Plot` 
 
 ```python
 from bokeh.models import Plot
@@ -138,7 +138,7 @@ They're basically the same thing with the same key methods/attributes on them.
 
 ---
 
-#[Glyphs == Shapes](http://localhost:8000/static/demos/glyphs.html)
+#[Glyphs == Shapes](demos/glyphs.html)
 
 ---
 
@@ -423,7 +423,7 @@ from bokeh.embed import components
 
 Add some tables `pandas.DataFrame.to_html()` and a more complete template
 
-[live demo. ...](http://localhost:5000/2015-07-10/)
+[live demo. ...](demos/gtimelog/gTimeLog_Dashboard.html)
 
 ---
 
@@ -434,7 +434,7 @@ Add some tables `pandas.DataFrame.to_html()` and a more complete template
 
 [notebooks/Tools_Selection_Panning.ipynb](http://localhost:8888/notebooks/notebooks/Tools_Selection_Panning.ipynb)
 
-[Linked-selection Hover example](http://localhost:8000/static/demos/washmap/washmap.html)
+[Linked-selection Hover example](static/demos/washmap/washmap.html)
 
 ---
 
@@ -453,7 +453,7 @@ Write a small piece of javascript to happen on interaction.
 
 ---
 
-<iframe width=900 height=500 src="http://localhost:8000/static/demos/gapminder/gapminder_simple.html"></iframe>
+<iframe width=900 height=500 src="demos/gapminder/gapminder_simple.html"></iframe>
 
 Slider - change source of Text and Bubbles
 
@@ -465,7 +465,7 @@ Slider - change source of Text and Bubbles
 
 ---
 
-[change color](http://localhost:5000/2015-07-10/)
+[change color](static/demos/gtimelog/gTimeLog_Dashboard.html/)
 
 ```python
 
@@ -514,7 +514,7 @@ script, divs = components({
     })
 ```
 
-[live demo](http://localhost:5000/2015-07-10/)
+[live demo](static/demos/gtimelog/gTimeLog_Dashboard.html)
 
 ---
 
