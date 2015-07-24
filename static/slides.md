@@ -108,7 +108,7 @@ At the heart of Bokeh is the `ColumnDataSource`
 |1|2
 |3|4
 
-[notebooks/ColumnDataSource.ipynb](http://localhost:8888/notebooks/notebooks/ColumnDataSource.ipynb)
+[notebooks/ColumnDataSource.ipynb](http://nbviewer.ipython.org/github/birdsarah/europython-2015-bokeh/blob/gh-pages/notebooks/ColumnDataSource.ipynb)
 
 ---
 
@@ -128,7 +128,7 @@ p = Chart()
 ```
 They're basically the same thing with the same key methods/attributes on them.
 
-[notebooks/Plot.ipynb](http://localhost:8888/notebooks/notebooks/Plot.ipynb)
+[notebooks/Plot.ipynb](http://nbviewer.ipython.org/github/birdsarah/europython-2015-bokeh/blob/gh-pages/notebooks/Plot.ipynb)
 
 ---
 
@@ -183,7 +183,7 @@ They're basically the same thing with the same key methods/attributes on them.
 
 ![Bar chart](images/bar_chart.png)
 
-[notebooks/Chart.ipynb](http://localhost:8888/notebooks/notebooks/Chart.ipynb)
+[notebooks/Chart.ipynb](http://nbviewer.ipython.org/github/birdsarah/europython-2015-bokeh/blob/gh-pages/notebooks/Chart.ipynb)
 
 ---
 # io
@@ -216,7 +216,7 @@ show(bar)  # Also see save(bar)
 
 ![Plotting](images/plotting.png)
 
-[notebooks/Plotting.ipynb](http://localhost:8888/notebooks/notebooks/Plotting.ipynb)
+[notebooks/Plotting.ipynb](http://nbviewer.ipython.org/github/birdsarah/europython-2015-bokeh/blob/gh-pages/notebooks/Plotting.ipynb)
 
 ---
 
@@ -235,7 +235,7 @@ p.quad(left='start', right='end', top='activity_top', bottom='activity_bottom', 
 # Models
 ![Models](images/models.png)
 
-[notebooks/Models.ipynb](http://localhost:8888/notebooks/notebooks/Models.ipynb)
+[notebooks/Models.ipynb](http://nbviewer.ipython.org/github/birdsarah/europython-2015-bokeh/blob/gh-pages/notebooks/Models.ipynb)
 
 ---
 
@@ -304,7 +304,7 @@ Anything is possible on all versions - pick your favorite.
     show(plot)
 ```
 
-[notebooks/Prototyping.ipynb](http://localhost:8888/notebooks/notebooks/Prototyping.ipynb)
+[notebooks/Prototyping.ipynb](http://nbviewer.ipython.org/github/birdsarah/europython-2015-bokeh/blob/gh-pages/notebooks/Prototyping.ipynb)
 ---
 
 # Styling with models
@@ -417,7 +417,7 @@ from bokeh.io import vplot, hplot
 
 from bokeh.embed import components
 ````
-[notebooks/Layout-Embed.ipynb](http://localhost:8888/notebooks/notebooks/Layout-Embed.ipynb)
+[notebooks/Layout-Embed.ipynb](http://nbviewer.ipython.org/github/birdsarah/europython-2015-bokeh/blob/gh-pages/notebooks/Layout-Embed.ipynb)
 
 ---
 
@@ -432,7 +432,7 @@ Add some tables `pandas.DataFrame.to_html()` and a more complete template
 * Tools - Hover, Select, Zoom, Pan
 * Shared selection & panning
 
-[notebooks/Tools_Selection_Panning.ipynb](http://localhost:8888/notebooks/notebooks/Tools_Selection_Panning.ipynb)
+[notebooks/Tools_Selection_Panning.ipynb](http://nbviewer.ipython.org/github/birdsarah/europython-2015-bokeh/blob/gh-pages/notebooks/Tools_Selection_Panning.ipynb)
 
 [Linked-selection Hover example](static/demos/washmap/washmap.html)
 
