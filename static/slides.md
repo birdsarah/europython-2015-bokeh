@@ -1,28 +1,26 @@
-![Bokeh logo](images/logo.svg)
-
 # Getting started with Bokeh 
-Let's build an interactive data visualization for the web...in Python! 
+Let's build [an interactive data visualization for the web](demos/gtimelog/gTimeLog_Dashboard.html)...in Python! 
+
+![Sneak Peak](images/sneak_peak.png)
 
 #### Sarah Bird - Europython 2015
----
-<a href="http://localhost:5000">Live demo....</a>
-![Sneak Peak](images/dashboard.png)
 
 ---
+
+### slides
+
+github.com/birdsarah/europython-2015-bokeh
 
 ### app
 
 github.com/birdsarah/gtimelog-viz
-
-### slides
-
-birdsarah.github.io/europython-2015-bokeh
 
 ### me
 
 @birdsarah
 
 ---
+
 
 # Bokeh
 <img class="slide_image" src="images/gallery-screenshot.png">
@@ -57,10 +55,6 @@ both:
 
 ---
 
-![Sneak Peak](images/dashboard.png)
-
----
-
 ![How it works](images/bokeh_basic.svg)
 
 ---
@@ -69,14 +63,14 @@ both:
 
 ---
 
-![Mockup](images/dashboard_v1.png)
+# [gtimelog dashboard](demos/gtimelog/gTimeLog_Dashboard.html)
+
+[github.com/birdsarah/gtimelog-viz](https://github.com/birdsarah/gtimelog-viz)
+![Sneak Peak](images/sneak_peak.png)
+gtimelog | Marius Gedminas | [mg.pov.lt/gtimelog](https://mg.pov.lt/gtimelog) | [github.com/gtimelog/gtimelog](https://github.com/gtimelog/gtimelog)
+
 
 ---
-
-![Mockup](images/dashboard_v1_comments.png)
-
----
-
 
 `conda install bokeh`
 
@@ -88,6 +82,76 @@ optional
 `conda install ipython-notebook pandas`
 
 `pip install "ipython[notebook]" pandas`
+
+---
+
+* data
+* io
+* charts 
+* plotting 
+* models 
+* layout & embedding
+* styling
+* interactive
+
+.... and there's more this afternon - Fabio Pliger's talk 3:15pm (PythonAnywhere Room).
+
+---
+
+# Data.....
+
+At the heart of Bokeh is the `ColumnDataSource`
+
+| 'column of xs' | 'column of ys'
+|---|---
+|0|1 
+|1|2
+|3|4
+
+[notebooks/ColumnDataSource.ipynb](http://localhost:8888/notebooks/notebooks/ColumnDataSource.ipynb)
+
+---
+
+and the `Plot` 
+
+```python
+from bokeh.models import Plot
+p = Plot()
+```
+```python
+from bokeh.plotting import figure
+p = figure()
+```
+```python
+from bokeh.charts import Chart
+p = Chart()
+```
+They're basically the same thing with the same key methods/attributes on them.
+
+[notebooks/Plot.ipynb](http://localhost:8888/notebooks/notebooks/Plot.ipynb)
+
+---
+
+#"Glyphs" ????
+
+![confused](images/confused_panda.jpg)
+
+---
+
+#[Glyphs == Shapes](demos/glyphs.html)
+
+---
+
+![Sneak Peak](images/sneak_peak.png)
+
+* data
+* charts 
+* io
+* plotting 
+* models 
+* layout & embedding
+* styling
+* interactive
 
 
 ---
@@ -105,6 +169,7 @@ optional
 
 * Tries to pick sensible defaults
 * You organize your data, it organizes your plot
+
 <p></p>
 
 ## bokeh.charts (high speed)
@@ -112,51 +177,6 @@ optional
 * One-line charts
 * Processes your data & spits out a chart
 
----
-
-* data
-* io
-* charts 
-* plotting 
-* models 
-* layout & embedding
-* styling
-* interactive
-
-.... and there's more in a couple of hours - Fabio Pliger's talk.
----
-
-# Data.....
-
-At the heart of Bokeh is the `ColumnDataSource`
-
-| 'column of xs' | 'column of ys'
-|---|---
-|0|1 
-|1|2
-|3|4
-
-[notebooks/ColumnDataSource.ipynb](http://localhost:8888/notebooks/notebooks/ColumnDataSource.ipynb)
-
----
-
-and the `Plot`
-
-```python
-from bokeh.models import Plot
-p = Plot
-```
-```python
-from bokeh.plotting import figure
-p = figure()
-```
-```python
-from bokeh.plotting import Chart
-p = Chart()
-```
-They're basically the same thing with the same key methods/attributes on them.
-
-[notebooks/Plot.ipynb](http://localhost:8888/notebooks/notebooks/Plot.ipynb)
 
 ---
 # chart
@@ -172,9 +192,12 @@ output_notebook
 ```python
 from bokeh.io import output_notebook, show
 output_notebook()
+```
 
+![output notebook](images/output_notebook.png)
+
+```python
 bar = Bar(bar_df, stacked=True, palette=['purple', 'gray'])
-
 show(bar)
 ```
 
@@ -184,7 +207,6 @@ from bokeh.io import output_file, show
 output_file('my_bar_chart.html', mode='cdn')  # CDN mode keeps your output small
 
 bar = Bar(bar_df, stacked=True, palette=['purple', 'gray'])
-
 show(bar)  # Also see save(bar)
 ```
 
@@ -278,7 +300,11 @@ Anything is possible on all versions - pick your favorite.
 
     # Grid lines
     ygrid.grid_line_color = None
+    
+    show(plot)
 ```
+
+[notebooks/Prototyping.ipynb](http://localhost:8888/notebooks/notebooks/Prototyping.ipynb)
 ---
 
 # Styling with models
@@ -294,6 +320,7 @@ p = Plot(
     min_border=5,
 )
 
+# Make the axes
 AXIS_PROPERTIES = dict(
     major_label_text_color=COLOR_PRIMARY_CONTRAST,
     axis_line_color=None,
@@ -303,14 +330,18 @@ AXIS_PROPERTIES = dict(
 y_axis = LinearAxis(**AXIS_PROPERTIES)
 x_axis = CategoricalAxis(**AXIS_PROPERTIES)
 
+# MAke the glyphs
 RECT_PROPERTIES = dict(x="cat", width="width", line_color=None)
 base = Rect(y='yhuman', height='human', fill_color=COLOR_ACCENT, **RECT_PROPERTIES)
 total = Rect(y='ytotal', height='total', fill_color=COLOR_PRIMARY_DARK, **RECT_PROPERTIES)
 
+# Put it all together
 p.add_layout(y_axis, 'left')
 p.add_layout(x_axis, 'below')
 p.add_glyph(source, base)
 p.add_glyph(source, total)
+
+show(p)
 ```
 
 ---
@@ -331,21 +362,52 @@ COLOR_ACCENT = PALETTE_PINK_A400
 COLOR_PRIMARY_CONTRAST = COLOR_DARK_CONTRAST
 COLOR_ACCENT_CONTRAST = COLOR_DARK_CONTRAST
 
+PLOT_PROPERTIES = dict(
+    toolbar_location=None,
+    background_fill=COLOR_PRIMARY,
+    border_fill=COLOR_PRIMARY,
+    outline_line_color=None,
+    min_border=5,
+)
+
 AXIS_PROPERTIES = dict(
     major_label_text_color=COLOR_PRIMARY_CONTRAST,
     axis_line_color=COLOR_PRIMARY,
     major_tick_line_color=COLOR_PRIMARY,
     minor_tick_line_color=COLOR_PRIMARY,
 )
-````
 
+````
+---
+
+```python
+# Make a plot
+p = Plot(
+    x_range=FactorRange(factors=source.data.get('cat')),
+    y_range=Range1d(0, 9),
+    **PLOT_PROPERTIES
+)
+
+# Make the axes
+y_axis = LinearAxis(**AXIS_PROPERTIES)
+x_axis = CategoricalAxis(**AXIS_PROPERTIES)
+
+# MAke the glyphs
+base = Rect(y='yhuman', height='human', fill_color=COLOR_ACCENT, **RECT_PROPERTIES)
+total = Rect(y='ytotal', height='total', fill_color=COLOR_PRIMARY_DARK, **RECT_PROPERTIES)
+
+# Put it all together
+p.add_layout(y_axis, 'left')
+p.add_layout(x_axis, 'below')
+p.add_glyph(source, base)
+p.add_glyph(source, total)
+
+show(p)
+```
 
 ---
 Read the docs:
 [bokeh.pydata.org/docs/user_guide/styling.html](http://bokeh.pydata.org/en/latest/docs/user_guide/styling.html)
-
-Experiment: 
-[notebooks/Prototyping.ipynb](http://localhost:8888/notebooks/notebooks/Prototyping.ipynb)
 
 ---
 
@@ -361,7 +423,7 @@ from bokeh.embed import components
 
 Add some tables `pandas.DataFrame.to_html()` and a more complete template
 
-[live demo. ...](http://localhost:5000/2015-07-10/)
+[live demo. ...](demos/gtimelog/gTimeLog_Dashboard.html)
 
 ---
 
@@ -371,6 +433,8 @@ Add some tables `pandas.DataFrame.to_html()` and a more complete template
 * Shared selection & panning
 
 [notebooks/Tools_Selection_Panning.ipynb](http://localhost:8888/notebooks/notebooks/Tools_Selection_Panning.ipynb)
+
+[Linked-selection Hover example](static/demos/washmap/washmap.html)
 
 ---
 
@@ -389,7 +453,7 @@ Write a small piece of javascript to happen on interaction.
 
 ---
 
-<iframe width=900 height=500 src="http://localhost:8002/gapminder_simple.html"></iframe>
+<iframe width=900 height=500 src="demos/gapminder/gapminder_simple.html"></iframe>
 
 Slider - change source of Text and Bubbles
 
@@ -401,7 +465,7 @@ Slider - change source of Text and Bubbles
 
 ---
 
-[change color](http://localhost:5000/2015-07-10/)
+[change color](static/demos/gtimelog/gTimeLog_Dashboard.html/)
 
 ```python
 
@@ -450,7 +514,7 @@ script, divs = components({
     })
 ```
 
-[live demo](http://localhost:5000/2015-07-10/)
+[live demo](static/demos/gtimelog/gTimeLog_Dashboard.html)
 
 ---
 
@@ -465,7 +529,7 @@ script, divs = components({
 
 .... and there's more in a couple of hours - Fabio Pliger's talk.
 
-* widgets
+* interactive
 * server
 * other data sources
 
